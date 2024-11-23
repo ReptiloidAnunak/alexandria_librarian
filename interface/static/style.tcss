@@ -1,0 +1,51 @@
+
+
+Screen {
+    align: center middle;
+    content-align: center middle;
+    layout: vertical;
+}
+
+#main_menu_container {
+    height: 100%;
+    margin: 4 8;
+    background: $panel;
+    color: $text;
+    border: tall $background;
+    padding: 1 2;
+}
+#app_name_label {
+    text-style: bold;
+    height: 100%;
+    content-align: center middle;
+}
+
+Button {
+    width: 1fr;
+}
+
+
+.main_menu_buttons {
+    width: 100%;
+    height: auto;
+    text-style: bold;
+    dock: bottom;
+}
+
+
+#button_quit {
+    color: red;
+
+}
+
+#bth_ok_add_book_wid {
+
+}
+
+.submit_btns #bth_ok_add_book_wid {
+    background: #4CAF50;
+    height: auto;
+    text-style: bold;
+    dock: bottom;
+
+}

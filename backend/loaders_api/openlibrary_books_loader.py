@@ -5,7 +5,7 @@ from time import sleep
 import requests
 from data_base.management.base_manager import BaseManager
 from data_base.models import Book
-from logger_app.create_alex_lib_logger import create_alex_lib_logger
+from logger_app.loggers.alex_lib_logger import create_alex_lib_logger
 
 openlibrary_loader_log = create_alex_lib_logger("Open Library Loader")
 

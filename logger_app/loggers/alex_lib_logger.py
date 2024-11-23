@@ -1,10 +1,8 @@
-import logging
-import os
 
-from settings import LOGS_FILENAME, APP_LOGGER_NAME, MAIN_LOGGER_NAME, LOGS_FILE_ABSPATH
+from settings import LOGS_FILE_ABSPATH
+
 import logging
-import logging
-from settings import LOGS_FILENAME, APP_LOGGER_NAME
+from settings import APP_LOGGER_NAME
 
 
 def create_alex_lib_logger(loger_special_name: str) -> logging.LoggerAdapter:

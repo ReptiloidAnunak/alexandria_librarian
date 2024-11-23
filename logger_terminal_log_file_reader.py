@@ -3,7 +3,6 @@ from logger_app.loggers.core_logger import create_core_logger
 from settings import LOGS_FILE_ABSPATH
 
 class LogsFileTerminalReader:
-
     def __init__(self):
         self.logger = create_core_logger()
         self.read_logs_with_interface()

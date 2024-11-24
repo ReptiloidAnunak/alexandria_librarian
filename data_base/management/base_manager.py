@@ -84,7 +84,37 @@ class BaseManager:
             return book
         except IndexError:
             self.logger.info(f'GET BOOK BY ID ERROR: no such book (id={book_id})')
-            return
+            return None
+
+    def get_books_by_title(self, book_title: str) -> Union[None, List[Book]]:
+        books_db_all = self.get_books_db_data_list()
+        try:
+            book_data = [book for book in books_db_all if book['title'] == book_title]
+            books_obj_lst = [load_book_obj_from_db(book) for book in book_data]
+            return books_obj_lst
+        except IndexError:
+            self.logger.info(f'GET BOOK BY ID ERROR: no such book (title={book_title})')
+            return []
+
+    def get_books_by_author(self, book_author: str) -> Union[None, List[Book]]:
+        books_db_all = self.get_books_db_data_list()
+        try:
+            book_data = [book for book in books_db_all if book['author'] == book_author]
+            books_obj_lst = [load_book_obj_from_db(book) for book in book_data]
+            return books_obj_lst
+        except IndexError:
+            self.logger.info(f'GET BOOK BY ID ERROR: no such book (author={book_author})')
+            return []
+
+    def get_books_by_year(self, book_year: str) -> Union[None, List[Book]]:
+        books_db_all = self.get_books_db_data_list()
+        try:
+            book_data = [book for book in books_db_all if book['year'] == book_year]
+            books_obj_lst = [load_book_obj_from_db(book) for book in book_data]
+            return books_obj_lst
+        except IndexError:
+            self.logger.info(f'GET BOOK BY ID ERROR: no such book (year={book_year})')
+            return []
 
     def delete_book_by_id(self, book_id: int) -> None:
         books_db_all = self.get_books_db_data_list()

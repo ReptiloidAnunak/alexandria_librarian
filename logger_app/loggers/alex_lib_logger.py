@@ -4,10 +4,27 @@ from settings import LOGS_FILE_ABSPATH
 import logging
 from settings import APP_LOGGER_NAME
 
+import colorlog
 
 def create_alex_lib_logger(loger_special_name: str) -> logging.LoggerAdapter:
     logger = logging.getLogger(APP_LOGGER_NAME)
     logger.setLevel(logging.DEBUG)
+
+    handler = colorlog.StreamHandler()
+    formatter = colorlog.ColoredFormatter(
+        '%(log_color)s%(levelname)-8s%(reset)s %(blue)s%(message)s',
+        log_colors={
+            'DEBUG': 'blue',
+            'INFO': 'green',
+            'WARNING': 'yellow',
+            'ERROR': 'red',
+            'CRITICAL': 'bold_red',
+        }
+    )
+
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
 
     file_handler = logging.FileHandler(LOGS_FILE_ABSPATH, encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)

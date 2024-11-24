@@ -34,32 +34,80 @@ class AddBookWidget(HorizontalGroup):
             author = self.input_author.value
             self.app.logs.info(f"ADD_BOOK_INPUT :: author: {author}")
             year = self.input_year.value
+            if not year:
+                year = None
+            else:
+                year = int(year)
             self.app.logs.info(f"ADD_BOOK_INPUT :: year: {year}")
+
 
             book = Book(
                 title=title,
                 author=author,
-                year=int(year),
+                year=year,
             )
             self.app.db_manager.add_book_to_db(book)
             self.app.logs.info(f"Book :: {book}")
-            self.app.books_table.add_row(*book)
+            self.app.books_table.add_row(*book, key=book.id)
             self.btn_ok_add_book.disabled = False
-            self.refresh()
+            self.app.books_table.show_actual_books_db()
         # elif event.button.id == self.btn.id:
 
 class FindBookWidget(HorizontalGroup):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.input_title = Input(placeholder='Title', type='text')
+        self.input_author = Input(placeholder='Autor', type='text')
+        self.input_year = Input(placeholder='Year', type='integer')
         self.btn_ok_find_book = Button('✅', id='bth_ok_find_book_wid', variant="success")
+
     def compose(self) -> ComposeResult:
         yield Vertical(
             Label("Search book:"),
-                    Input(placeholder='Title', type='text'),
-                    Input(placeholder='Autor', type='text'),
-                    Input(placeholder='Year', type='integer'),
+                    self.input_title,
+                    self.input_author,
+                    self.input_year,
                     self.btn_ok_find_book
         )
+
+    def on_button_pressed(self, event: Button.Pressed):
+        if event.button.id == self.btn_ok_find_book.id:
+            self.app.logs.info('FIND BOOK OK')
+            self.btn_ok_find_book.disabled = False
+            self.app.logs.info('self.app.db_manager.add_book_to_db()')
+
+            title = self.input_title.value
+            books_by_title = self.app.db_manager.get_books_by_title(title)
+            self.app.logs.info(f"FIND_BOOK_INPUT :: title: {title}")
+            self.app.logs.info(f"books_by_title {books_by_title}")
+
+            author = self.input_author.value
+            books_by_author = self.app.db_manager.get_books_by_author(author)
+            self.app.logs.info(f"FIND_BOOK_INPUT :: author: {author}")
+            self.app.logs.info(f"FIND_BOOK_INPUT :: books_by_author: {books_by_author}")
+
+            year = self.input_year.value
+            books_by_year = self.app.db_manager.get_books_by_year(year)
+            self.app.logs.info(f"FIND_BOOK_INPUT :: year: {year}")
+            self.app.logs.info(f"FIND_BOOK_INPUT :: books_by_year: {books_by_year}")
+
+            found_not_filtered_books = list(books_by_title + books_by_author + books_by_year)
+            self.app.logs.info(f"FIND_BOOK_INPUT :: found_books_not_filtered: {found_not_filtered_books}")
+
+            if title and author:
+                result = [book for book in found_not_filtered_books if book.title == title and book.author == author]
+            elif title and year:
+                result = [book for book in found_not_filtered_books if book.title == title and book.year == year]
+            elif author and year:
+                result = [book for book in found_not_filtered_books if book.author == author and book.year == year]
+            else:
+                result = found_not_filtered_books
+
+            self.app.logs.info(f"FIND_BOOK_INPUT :: found_books_filtered: {result}")
+
+            self.app.books_table.show_books_query_result_in_dt(result)
+
+
 
 
 class DeleteBookWidget(HorizontalGroup):
@@ -77,11 +125,7 @@ class DeleteBookWidget(HorizontalGroup):
 
     def on_button_pressed(self, event: Button.Pressed):
         if event.button.id == self.btn_ok_del_book.id:
-            self.app.logs.info('DELETE BOOOK ')
-            book_id = self.input_book_id.value
-
-            books_table_rows = self.app.books_table
-            self.app.logs.info(books_table_rows)
-
-            # self.app.books_table.remove()
-            self.app.db_manager.delete_book_by_id(book_id)
+            self.app.logs.info('DELETE BOOK OK')
+            book_id = int(self.input_book_id.value)
+            self.app.db_manager.delete_book_by_id(int(book_id))
+            self.app.books_table.show_actual_books_db()

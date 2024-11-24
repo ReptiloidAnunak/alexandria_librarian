@@ -39,10 +39,12 @@ class AlexLibraryApp(App):
     def on_button_pressed(self, event: Button.Pressed):
         self.logs.info(f'BUTTON pressed :: {event.button.id}')
         if event.button.id == 'btn_books_catalog':
+            self.books_table.show_actual_books_db()
             self.main_menu.remove()
             self.mount(BooksCatalog())
 
         elif event.button.id == 'btn_books_load_api':
+            # self.books_table.show_actual_books_db()
             self.main_menu.remove()
         elif event.button.id == 'quit_app':
             self.exit()

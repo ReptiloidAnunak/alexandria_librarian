@@ -1,0 +1,98 @@
+[
+    {
+        "id": 85351,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "year": 2014,
+        "status": "в наличии",
+        "isbn": 9781503280786
+    },
+    {
+        "id": 10620,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "year": 1997,
+        "status": "в наличии",
+        "isbn": 9780747532699
+    },
+    {
+        "id": 10205,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "year": 2005,
+        "status": "в наличии",
+        "isbn": 9780618640157
+    },
+    {
+        "id": 64856,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1956,
+        "status": "в наличии",
+        "isbn": 9780345339683
+    },
+    {
+        "id": 16473,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 2014,
+        "status": "в наличии",
+        "isbn": 9781503290563
+    },
+    {
+        "id": 32845,
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "year": 1986,
+        "status": "в наличии",
+        "isbn": 9780393312836
+    },
+    {
+        "id": 22965,
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "year": 1996,
+        "status": "в наличии",
+        "isbn": 9780451526342
+    },
+    {
+        "id": 94463,
+        "title": "Nineteen Eighty-Four",
+        "author": "George Orwell",
+        "year": 1993,
+        "status": "в наличии",
+        "isbn": 9780451524935
+    },
+    {
+        "id": 98998,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 2006,
+        "status": "в наличии",
+        "isbn": 9780061120084
+    },
+    {
+        "id": 83426,
+        "title": "One hundred years of solitude",
+        "author": "Gabriel García Márquez",
+        "year": 2006,
+        "status": "в наличии",
+        "isbn": 9780060883287
+    },
+    {
+        "id": 86013,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "year": 2013,
+        "status": "в наличии",
+        "isbn": 9781451673319
+    },
+    {
+        "id": 23293,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": 2006,
+        "status": "в наличии",
+        "isbn": 9780061122415
+    }
+]

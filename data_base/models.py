@@ -15,7 +15,7 @@ class Book(BaseModel):
     id: Union[None, int] = None
     title: str
     author: Union[str, None]
-    year: int
+    year: Union[int, None]
     status: str = BookStatus.available.value
     isbn: Union[None, int] = None
     
@@ -30,6 +30,9 @@ class Book(BaseModel):
                     year=self.year,
                     status=self.status,
                     isbn=self.isbn)
+
+    def to_db_row_tuple(self):
+        return tuple([self.id, self.title, self.author, self.year, self.status, self.isbn])
 
     def __str__(self):
         return ('\n'

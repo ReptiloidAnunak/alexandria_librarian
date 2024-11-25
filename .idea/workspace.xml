@@ -5,33 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ed17ca-5fd6-4770-901b-7f3e5514ca36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/alexandria_librarian.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/loaders_api/openlibrary_books_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_base/management/base_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_base/management/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_base/management/init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_base/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/static/style.tcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/books_catalog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/change_catalog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/data_tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_app/init_main_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_app/loggers/alex_lib_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_app/loggers/core_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_app/loggers/interface_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger_terminal_log_file_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textual_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/loaders_api/load_files/loader_100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/loaders_api/loader_api_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/widgets/books_load_api_wids/load_by_api_wid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/loaders_api/openlibrary_books_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/loaders_api/load_files/openlibrary_books_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/alexandria_books.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/management/base_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/management/base_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/management/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/management/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger_app/alex_lib.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textual_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/textual_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +35,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ReptiloidAnunak/alexandria_librarian.git",
-    "accountId": "8586ee00-6c3b-47d4-82d0-951863f1c637"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ReptiloidAnunak"
   }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ReptiloidAnunak/alexandria_librarian.git&quot;,
+    &quot;accountId&quot;: &quot;8586ee00-6c3b-47d4-82d0-951863f1c637&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -71,6 +66,8 @@
     "Python.init_db.executor": "Run",
     "Python.init_main_logger.executor": "Run",
     "Python.interface_main.executor": "Run",
+    "Python.load_by_api_wid.executor": "Run",
+    "Python.loader_model.executor": "Run",
     "Python.logger_main.executor": "Run",
     "Python.logger_terminal_log_file_reader.executor": "Run",
     "Python.main.executor": "Run",
@@ -89,15 +86,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/loaders_api/load_files" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/interface/static" />
       <recent name="$PROJECT_DIR$/interface" />
       <recent name="$PROJECT_DIR$/logger_app/loggers" />
-      <recent name="$PROJECT_DIR$/logger_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.logger_terminal_log_file_reader">
-    <configuration name="base_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.loader_api_model">
+    <configuration name="load_by_api_wid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_base/management" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface/widgets/books_load_api_wids" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_base/management/base_manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/widgets/books_load_api_wids/load_by_api_wid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="loader_api_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/loaders_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/loaders_api/loader_api_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/models/main_menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,33 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_base/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="textual_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alexandria_librarian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textual_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,10 +207,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.logger_terminal_log_file_reader" />
-        <item itemvalue="Python.draft" />
-        <item itemvalue="Python.base_manager" />
-        <item itemvalue="Python.models" />
-        <item itemvalue="Python.textual_app" />
+        <item itemvalue="Python.loader_api_model" />
+        <item itemvalue="Python.load_by_api_wid" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +232,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -269,11 +255,6 @@
           <url>file://$PROJECT_DIR$/interface/interface_main.py</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_base/management/base_manager.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

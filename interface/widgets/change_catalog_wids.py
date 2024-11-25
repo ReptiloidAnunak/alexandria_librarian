@@ -1,9 +1,9 @@
 
 from textual.app import ComposeResult
-from textual.widgets import Button, Label, Input
+from textual.widgets import Button, Label, Input, Select
 from textual.containers import HorizontalGroup, Vertical
 
-from data_base.models import Book
+from data_base.models import Book, BookStatus
 
 
 class AddBookWidget(HorizontalGroup):
@@ -20,8 +20,9 @@ class AddBookWidget(HorizontalGroup):
                     self.input_title,
                     self.input_author,
                     self.input_year,
-                    self.btn_ok_add_book
+
         )
+        yield self.btn_ok_add_book
         self.app.logs.info('ADD_BOOKS_WIDGET :: composed')
 
     def on_button_pressed(self, event: Button.Pressed):
@@ -51,7 +52,34 @@ class AddBookWidget(HorizontalGroup):
             self.app.books_table.add_row(*book, key=book.id)
             self.btn_ok_add_book.disabled = False
             self.app.books_table.show_actual_books_db()
-        # elif event.button.id == self.btn.id:
+
+
+
+class EditBookStatusWidget(HorizontalGroup):
+    books_status_lst = [BookStatus.available.value, BookStatus.issued.value]
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.input_book_id = Input(placeholder='123456789', type='integer')
+        self.select_status = Select([(line, line) for line in self.books_status_lst], prompt='Select book`s status')
+        self.btn_ok_status_book = Button('✅', id='bth_ok_status_book_wid', variant="success")
+
+
+    def compose(self) -> ComposeResult:
+        yield Vertical(
+            Label("Change book`s status:"),
+        )
+        yield Vertical(self.input_book_id,
+                       self.select_status,
+                       self.btn_ok_status_book)
+
+    def on_button_pressed(self, event: Button.Pressed):
+        if event.button.id == 'bth_ok_status_book_wid':
+            book_id = int(self.input_book_id.value)
+            status = self.select_status.value
+            self.app.logs.info(f'EDIT BOOK: {book_id} {status}')
+            self.app.db_manager.change_book_status(book_id, status)
+            self.app.books_table.show_actual_books_db()
+            self.app.books_table.show_actual_books_db()
 
 class FindBookWidget(HorizontalGroup):
     def __init__(self, *args, **kwargs):
@@ -67,10 +95,11 @@ class FindBookWidget(HorizontalGroup):
                     self.input_title,
                     self.input_author,
                     self.input_year,
-                    self.btn_ok_find_book
         )
+        yield self.btn_ok_find_book
 
     def on_button_pressed(self, event: Button.Pressed):
+        self.app.books_table
         if event.button.id == self.btn_ok_find_book.id:
             self.app.logs.info('FIND BOOK OK')
             self.btn_ok_find_book.disabled = False
@@ -108,8 +137,6 @@ class FindBookWidget(HorizontalGroup):
             self.app.books_table.show_books_query_result_in_dt(result)
 
 
-
-
 class DeleteBookWidget(HorizontalGroup):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -119,9 +146,7 @@ class DeleteBookWidget(HorizontalGroup):
         yield Vertical(
             Label("Delete book by ID:"),
                     self.input_book_id,
-                    self.btn_ok_del_book
-
-        )
+                    self.btn_ok_del_book)
 
     def on_button_pressed(self, event: Button.Pressed):
         if event.button.id == self.btn_ok_del_book.id:

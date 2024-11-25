@@ -106,7 +106,11 @@ class BaseManager:
             self.logger.info(f'GET BOOK BY ID ERROR: no such book (author={book_author})')
             return []
 
-    def get_books_by_year(self, book_year: str) -> Union[None, List[Book]]:
+    def get_books_by_year(self, book_year: Union[int, str, None]) -> Union[None, List[Book]]:
+        if not book_year:
+            return []
+        else:
+            book_year = int(book_year)
         books_db_all = self.get_books_db_data_list()
         try:
             book_data = [book for book in books_db_all if book['year'] == book_year]
@@ -143,10 +147,7 @@ class BaseManager:
         if not book:
             self.logger.info(f'CHANGE STATUS ERROR: no such book (id={book_id})')
             return
-        print(f"FOUND BOOK ID: {book.id}")
-        self.logger.info(f"CHANGE STATUS: book (id={book_id})")
-
-
+        self.logger.info(f"CHANGE STATUS: book (id={book_id}) > {status}")
         book.status = status
         self.delete_book_by_id(book_id)
         self.add_book_to_db(book)
@@ -156,5 +157,7 @@ class BaseManager:
         books_rows = [tuple(book.values()) for book in all_books]
         return books_rows
 
-base_manager = BaseManager()
-print(base_manager.get_books_rows())
+
+#
+# base_manager = BaseManager()
+# print(base_manager.get_books_rows())

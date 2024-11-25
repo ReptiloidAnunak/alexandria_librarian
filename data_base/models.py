@@ -16,7 +16,7 @@ class Book(BaseModel):
     title: str
     author: Union[str, None]
     year: Union[int, None]
-    status: str = BookStatus.available.value
+    status: Union[str, None]
     isbn: Union[None, int] = None
     
     def __init__(self, **kwargs):

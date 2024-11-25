@@ -1,6 +1,22 @@
 [
     {
-        "id": 85351,
+        "id": 71084,
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling; Jim Kay",
+        "year": 2000,
+        "status": "в наличии",
+        "isbn": 9780439139595
+    },
+    {
+        "id": 13657,
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling; Jim Kay",
+        "year": 2002,
+        "status": "в наличии",
+        "isbn": 9780439139601
+    },
+    {
+        "id": 83544,
         "title": "Moby Dick",
         "author": "Herman Melville",
         "year": 2014,
@@ -8,7 +24,15 @@
         "isbn": 9781503280786
     },
     {
-        "id": 10620,
+        "id": 26188,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J. K. Rowling",
+        "year": 1999,
+        "status": "в наличии",
+        "isbn": 9780590353427
+    },
+    {
+        "id": 18202,
         "title": "Harry Potter and the Philosopher's Stone",
         "author": "J. K. Rowling",
         "year": 1997,
@@ -16,7 +40,7 @@
         "isbn": 9780747532699
     },
     {
-        "id": 10205,
+        "id": 12404,
         "title": "The Lord of the Rings",
         "author": "J.R.R. Tolkien",
         "year": 2005,
@@ -24,7 +48,15 @@
         "isbn": 9780618640157
     },
     {
-        "id": 64856,
+        "id": 67278,
+        "title": "On the road",
+        "author": "Jack Kerouac",
+        "year": 1999,
+        "status": "в наличии",
+        "isbn": 9780140283297
+    },
+    {
+        "id": 78275,
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "year": 1956,
@@ -32,7 +64,15 @@
         "isbn": 9780345339683
     },
     {
-        "id": 16473,
+        "id": 66635,
+        "title": "Thinking, fast and slow",
+        "author": "Daniel Kahneman",
+        "year": 2013,
+        "status": "в наличии",
+        "isbn": 9780374533557
+    },
+    {
+        "id": 97182,
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
         "year": 2014,
@@ -40,7 +80,7 @@
         "isbn": 9781503290563
     },
     {
-        "id": 32845,
+        "id": 95158,
         "title": "A Clockwork Orange",
         "author": "Anthony Burgess",
         "year": 1986,
@@ -48,7 +88,15 @@
         "isbn": 9780393312836
     },
     {
-        "id": 22965,
+        "id": 83501,
+        "title": "Zen speaks",
+        "author": "Zhizhong Cai",
+        "year": 1994,
+        "status": "в наличии",
+        "isbn": 9780385472579
+    },
+    {
+        "id": 45189,
         "title": "Animal Farm",
         "author": "George Orwell",
         "year": 1996,
@@ -56,7 +104,7 @@
         "isbn": 9780451526342
     },
     {
-        "id": 94463,
+        "id": 70973,
         "title": "Nineteen Eighty-Four",
         "author": "George Orwell",
         "year": 1993,
@@ -64,7 +112,15 @@
         "isbn": 9780451524935
     },
     {
-        "id": 98998,
+        "id": 73395,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "year": 2003,
+        "status": "в наличии",
+        "isbn": 9780385504201
+    },
+    {
+        "id": 37126,
         "title": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "year": 2006,
@@ -72,7 +128,7 @@
         "isbn": 9780061120084
     },
     {
-        "id": 83426,
+        "id": 62543,
         "title": "One hundred years of solitude",
         "author": "Gabriel García Márquez",
         "year": 2006,
@@ -80,7 +136,39 @@
         "isbn": 9780060883287
     },
     {
-        "id": 86013,
+        "id": 51347,
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "year": 1993,
+        "status": "в наличии",
+        "isbn": 9780553296983
+    },
+    {
+        "id": 65498,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 2021,
+        "status": "в наличии",
+        "isbn": 9780743273565
+    },
+    {
+        "id": 10269,
+        "title": "Harry Potter and the prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "year": 1999,
+        "status": "в наличии",
+        "isbn": 9780439136365
+    },
+    {
+        "id": 47594,
+        "title": "A Brief History of Time",
+        "author": "",
+        "year": 1998,
+        "status": "выдана",
+        "isbn": 9780553380163
+    },
+    {
+        "id": 82533,
         "title": "Fahrenheit 451",
         "author": "Ray Bradbury",
         "year": 2013,
@@ -88,11 +176,35 @@
         "isbn": 9781451673319
     },
     {
-        "id": 23293,
+        "id": 22395,
+        "title": "Crime and punishment",
+        "author": "Фёдор Михайлович Достоевский",
+        "year": 2003,
+        "status": "в наличии",
+        "isbn": 9780140449136
+    },
+    {
+        "id": 42007,
+        "title": "War And Peace",
+        "author": "Лев Толстой",
+        "year": 2010,
+        "status": "в наличии",
+        "isbn": 9780199232765
+    },
+    {
+        "id": 2433,
+        "title": "Of Mice and Men",
+        "author": "John Steinbeck",
+        "year": 2002,
+        "status": "выдана",
+        "isbn": 9780142000670
+    },
+    {
+        "id": 31926,
         "title": "The Alchemist",
         "author": "Paulo Coelho",
         "year": 2006,
-        "status": "в наличии",
+        "status": "выдана",
         "isbn": 9780061122415
     }
 ]

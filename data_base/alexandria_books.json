@@ -30,5 +30,245 @@
         "year": 1987,
         "status": "выдана",
         "isbn": null
+    },
+    {
+        "id": 50578,
+        "title": "Describe",
+        "author": "Alison Shane Larson",
+        "year": 2008,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 40943,
+        "title": "Guess",
+        "author": "Rodney Austin Jackson",
+        "year": 2017,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 47660,
+        "title": "Future",
+        "author": "Marcus Vanessa Lee",
+        "year": 2023,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 94588,
+        "title": "Writer",
+        "author": "Rebecca Christine Gallegos",
+        "year": 2014,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 540,
+        "title": "Raise",
+        "author": "Gregory Anthony Dennis",
+        "year": 1973,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 27234,
+        "title": "Agent",
+        "author": "Jeffrey Sheri Miller",
+        "year": 1970,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 79636,
+        "title": "Room",
+        "author": "John William Ellis",
+        "year": 2019,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 97306,
+        "title": "Under",
+        "author": "Jessica Benjamin Mendoza",
+        "year": 1984,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 57738,
+        "title": "Share",
+        "author": "Angela Brian Foley Jr.",
+        "year": 1990,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 95379,
+        "title": "It",
+        "author": "George Clayton Smith",
+        "year": 1982,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 95508,
+        "title": "Even",
+        "author": "Nicholas Ryan Booker",
+        "year": 2019,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 98412,
+        "title": "Social",
+        "author": "Tamara Michele Duran",
+        "year": 1989,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 18433,
+        "title": "Art",
+        "author": "Shannon Felicia Williams",
+        "year": 1985,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 41792,
+        "title": "Fine",
+        "author": "Joseph Andrew Porter",
+        "year": 1977,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 46260,
+        "title": "Set",
+        "author": "Michael Kelly Myers",
+        "year": 1972,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 3786,
+        "title": "Film",
+        "author": "James Charles Dominguez",
+        "year": 2012,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 98625,
+        "title": "Degree",
+        "author": "Natalie James Mcbride",
+        "year": 1980,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 9185,
+        "title": "Story",
+        "author": "Kathleen Margaret Finley",
+        "year": 1984,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 16710,
+        "title": "Him",
+        "author": "Gary Edward Solis",
+        "year": 1985,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 81370,
+        "title": "You",
+        "author": "Kurt Calvin Hall",
+        "year": 2020,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 14830,
+        "title": "Individual",
+        "author": "Amy Patricia Knight",
+        "year": 2021,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 80620,
+        "title": "He",
+        "author": "Andrea Alexander Stone",
+        "year": 2020,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 93449,
+        "title": "Blood",
+        "author": "Gilbert Angel Tran",
+        "year": 2011,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 87013,
+        "title": "Increase",
+        "author": "Elizabeth Shannon Ruiz",
+        "year": 2015,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 50322,
+        "title": "Rest",
+        "author": "Justin Diana Levy",
+        "year": 1980,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 85949,
+        "title": "Wrong",
+        "author": "Rachel George Mcfarland",
+        "year": 2002,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 17396,
+        "title": "Seek",
+        "author": "Danielle Krystal Wilson",
+        "year": 2011,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 71744,
+        "title": "Want",
+        "author": "Molly Matthew Williamson",
+        "year": 1973,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 68650,
+        "title": "Southern",
+        "author": "Elizabeth Melanie Reyes",
+        "year": 1983,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 6488,
+        "title": "Nearly",
+        "author": "Jo Roger Martin",
+        "year": 1978,
+        "status": "в наличии",
+        "isbn": null
     }
 ]

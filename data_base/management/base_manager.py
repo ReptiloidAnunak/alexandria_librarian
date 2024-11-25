@@ -5,7 +5,7 @@ import uuid
 from json import JSONDecodeError
 from typing import List, Union
 from data_base.management.functions import load_book_obj_from_db
-from data_base.models import Book, BookStatus
+from data_base.models import Book
 from settings import DB_ABSPATH, ISBN_JSON_PATH
 from logger_app.loggers.alex_lib_logger import create_alex_lib_logger
 

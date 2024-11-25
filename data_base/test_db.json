@@ -1,0 +1,58 @@
+[
+    {
+        "id": 38240,
+        "title": "World",
+        "author": "Shawn Emily Crawford",
+        "year": 1976,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 31947,
+        "title": "Work",
+        "author": "Julie Monique Williams",
+        "year": 2021,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 72082,
+        "title": "Remain",
+        "author": "Megan Tyler Wagner",
+        "year": 1978,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 31135,
+        "title": "Democrat",
+        "author": "Joseph Gina Griffith",
+        "year": 1975,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 11199,
+        "title": "Age",
+        "author": "Monica David Powell",
+        "year": 1991,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 55443,
+        "title": "Business",
+        "author": "Jamie Cynthia Jennings",
+        "year": 1997,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 91226,
+        "title": "Laugh",
+        "author": "Ronnie Pamela Foster",
+        "year": 2008,
+        "status": "в наличии",
+        "isbn": null
+    }
+]

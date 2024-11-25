@@ -7781,3 +7781,1162 @@ Book
 Статус: выдана
 ~~~~~~~~~
  has been added to data base
+2024-11-25 04:10:47,474 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=50578)
+2024-11-25 04:10:47,475 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 50578
+Автор: Alison Shane Larson
+Название: Describe
+Год: 2008
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:10:47,479 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=52449)
+2024-11-25 04:10:47,480 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 52449
+Автор: Michael Joy Richardson
+Название: If
+Год: 1980
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:10:47,481 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 52449, 'title': 'If', 'author': 'Michael Joy Richardson', 'year': 1980, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:10:47,481 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=52449)
+2024-11-25 04:10:47,484 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40943)
+2024-11-25 04:10:47,485 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40943
+Автор: Rodney Austin Jackson
+Название: Guess
+Год: 2017
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:10:47,486 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=40943) > выдана
+2024-11-25 04:10:47,486 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:10:47,487 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40943)
+2024-11-25 04:10:47,487 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40943
+Автор: Rodney Austin Jackson
+Название: Guess
+Год: 2017
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:12:46,045 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 42381, 'title': 'Small', 'author': 'Timothy Daniel Wilcox', 'year': 1998, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:12:46,045 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 42381, 'title': 'Small', 'author': 'Timothy Daniel Wilcox', 'year': 1998, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:12:46,048 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 42381, 'title': 'Small', 'author': 'Timothy Daniel Wilcox', 'year': 1998, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:12:46,048 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 42381, 'title': 'Small', 'author': 'Timothy Daniel Wilcox', 'year': 1998, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:13:25,685 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40447)
+2024-11-25 04:13:25,685 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40447)
+2024-11-25 04:13:25,686 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40447
+Автор: Austin Sara Williams
+Название: Where
+Год: 2005
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,686 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40447
+Автор: Austin Sara Williams
+Название: Where
+Год: 2005
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,690 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=53815)
+2024-11-25 04:13:25,690 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=53815)
+2024-11-25 04:13:25,691 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 53815
+Автор: Pamela Ebony Herman
+Название: Suggest
+Год: 1995
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,691 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 53815
+Автор: Pamela Ebony Herman
+Название: Suggest
+Год: 1995
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,691 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=53815)
+2024-11-25 04:13:25,691 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=53815)
+2024-11-25 04:13:25,692 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=53815)
+2024-11-25 04:13:25,692 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=53815)
+2024-11-25 04:13:25,695 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=29148)
+2024-11-25 04:13:25,695 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=29148)
+2024-11-25 04:13:25,696 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 29148
+Автор: Lisa Heather Perkins
+Название: Affect
+Год: 1975
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,696 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 29148
+Автор: Lisa Heather Perkins
+Название: Affect
+Год: 1975
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:25,696 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=29148)
+2024-11-25 04:13:25,696 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=29148)
+2024-11-25 04:13:25,697 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=29148)
+2024-11-25 04:13:25,697 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=29148)
+2024-11-25 04:13:26,097 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=29148)
+2024-11-25 04:13:26,097 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=29148)
+2024-11-25 04:13:26,142 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:13:26,142 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:13:26,144 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=60900)
+2024-11-25 04:13:26,144 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=60900)
+2024-11-25 04:13:26,145 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 60900
+Автор: Jennifer Mark Griffin
+Название: Break
+Год: 2024
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,145 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 60900
+Автор: Jennifer Mark Griffin
+Название: Break
+Год: 2024
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,148 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=35866)
+2024-11-25 04:13:26,148 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=35866)
+2024-11-25 04:13:26,149 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 35866
+Автор: Stacey Scott Bradley
+Название: Question
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,149 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 35866
+Автор: Stacey Scott Bradley
+Название: Question
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,152 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=36301)
+2024-11-25 04:13:26,152 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=36301)
+2024-11-25 04:13:26,153 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 36301
+Автор: Christian Brandy Merritt
+Название: Full
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,153 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 36301
+Автор: Christian Brandy Merritt
+Название: Full
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,156 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=35469)
+2024-11-25 04:13:26,156 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=35469)
+2024-11-25 04:13:26,157 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 35469
+Автор: Richard Michael Cruz
+Название: According
+Год: 1993
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,157 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 35469
+Автор: Richard Michael Cruz
+Название: According
+Год: 1993
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,159 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=34982)
+2024-11-25 04:13:26,159 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=34982)
+2024-11-25 04:13:26,160 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 34982
+Автор: Amy Sydney Charles
+Название: Plant
+Год: 2011
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,160 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 34982
+Автор: Amy Sydney Charles
+Название: Plant
+Год: 2011
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:13:26,162 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 60900, 'title': 'Break', 'author': 'Jennifer Mark Griffin', 'year': 2024, 'status': 'в наличии', 'isbn': None}, {'id': 35866, 'title': 'Question', 'author': 'Stacey Scott Bradley', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 36301, 'title': 'Full', 'author': 'Christian Brandy Merritt', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 35469, 'title': 'According', 'author': 'Richard Michael Cruz', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 34982, 'title': 'Plant', 'author': 'Amy Sydney Charles', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:13:26,162 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 60900, 'title': 'Break', 'author': 'Jennifer Mark Griffin', 'year': 2024, 'status': 'в наличии', 'isbn': None}, {'id': 35866, 'title': 'Question', 'author': 'Stacey Scott Bradley', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 36301, 'title': 'Full', 'author': 'Christian Brandy Merritt', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 35469, 'title': 'According', 'author': 'Richard Michael Cruz', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 34982, 'title': 'Plant', 'author': 'Amy Sydney Charles', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:13:26,165 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 60900, 'title': 'Break', 'author': 'Jennifer Mark Griffin', 'year': 2024, 'status': 'в наличии', 'isbn': None}, {'id': 35866, 'title': 'Question', 'author': 'Stacey Scott Bradley', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 36301, 'title': 'Full', 'author': 'Christian Brandy Merritt', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 35469, 'title': 'According', 'author': 'Richard Michael Cruz', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 34982, 'title': 'Plant', 'author': 'Amy Sydney Charles', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:13:26,165 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 60900, 'title': 'Break', 'author': 'Jennifer Mark Griffin', 'year': 2024, 'status': 'в наличии', 'isbn': None}, {'id': 35866, 'title': 'Question', 'author': 'Stacey Scott Bradley', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 36301, 'title': 'Full', 'author': 'Christian Brandy Merritt', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 35469, 'title': 'According', 'author': 'Richard Michael Cruz', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 34982, 'title': 'Plant', 'author': 'Amy Sydney Charles', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:15:03,288 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=87054)
+2024-11-25 04:15:03,288 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=87054)
+2024-11-25 04:15:03,290 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 87054
+Автор: Bobby Lance Lawson
+Название: Student
+Год: 1983
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,290 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 87054
+Автор: Bobby Lance Lawson
+Название: Student
+Год: 1983
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,293 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=6708)
+2024-11-25 04:15:03,293 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=6708)
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 6708
+Автор: John Brandon Holder
+Название: Work
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 6708
+Автор: John Brandon Holder
+Название: Work
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=6708)
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=6708)
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=6708)
+2024-11-25 04:15:03,294 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=6708)
+2024-11-25 04:15:03,297 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71223)
+2024-11-25 04:15:03,297 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71223)
+2024-11-25 04:15:03,298 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71223
+Автор: James Jonathan May
+Название: Pretty
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,298 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71223
+Автор: James Jonathan May
+Название: Pretty
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,299 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=71223)
+2024-11-25 04:15:03,299 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=71223)
+2024-11-25 04:15:03,299 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=71223)
+2024-11-25 04:15:03,299 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=71223)
+2024-11-25 04:15:03,700 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=71223)
+2024-11-25 04:15:03,700 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=71223)
+2024-11-25 04:15:03,746 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:15:03,746 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:15:03,749 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=49802)
+2024-11-25 04:15:03,749 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=49802)
+2024-11-25 04:15:03,750 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 49802
+Автор: George John Russell
+Название: Board
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,750 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 49802
+Автор: George John Russell
+Название: Board
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,753 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=34979)
+2024-11-25 04:15:03,753 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=34979)
+2024-11-25 04:15:03,754 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 34979
+Автор: Michael Kathleen Holland
+Название: Individual
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,754 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 34979
+Автор: Michael Kathleen Holland
+Название: Individual
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,757 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40799)
+2024-11-25 04:15:03,757 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=40799)
+2024-11-25 04:15:03,758 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40799
+Автор: Shannon Patrick Knight
+Название: Analysis
+Год: 2012
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,758 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 40799
+Автор: Shannon Patrick Knight
+Название: Analysis
+Год: 2012
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,761 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=96985)
+2024-11-25 04:15:03,761 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=96985)
+2024-11-25 04:15:03,762 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 96985
+Автор: Christopher Gregory Pennington
+Название: War
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,762 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 96985
+Автор: Christopher Gregory Pennington
+Название: War
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,764 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=9834)
+2024-11-25 04:15:03,764 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=9834)
+2024-11-25 04:15:03,765 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 9834
+Автор: Danielle Donna Clark
+Название: Near
+Год: 1991
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,765 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 9834
+Автор: Danielle Donna Clark
+Название: Near
+Год: 1991
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:15:03,768 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 49802, 'title': 'Board', 'author': 'George John Russell', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 34979, 'title': 'Individual', 'author': 'Michael Kathleen Holland', 'year': 1994, 'status': 'в наличии', 'isbn': None}, {'id': 40799, 'title': 'Analysis', 'author': 'Shannon Patrick Knight', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 96985, 'title': 'War', 'author': 'Christopher Gregory Pennington', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 9834, 'title': 'Near', 'author': 'Danielle Donna Clark', 'year': 1991, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:15:03,768 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 49802, 'title': 'Board', 'author': 'George John Russell', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 34979, 'title': 'Individual', 'author': 'Michael Kathleen Holland', 'year': 1994, 'status': 'в наличии', 'isbn': None}, {'id': 40799, 'title': 'Analysis', 'author': 'Shannon Patrick Knight', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 96985, 'title': 'War', 'author': 'Christopher Gregory Pennington', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 9834, 'title': 'Near', 'author': 'Danielle Donna Clark', 'year': 1991, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:15:03,770 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 49802, 'title': 'Board', 'author': 'George John Russell', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 34979, 'title': 'Individual', 'author': 'Michael Kathleen Holland', 'year': 1994, 'status': 'в наличии', 'isbn': None}, {'id': 40799, 'title': 'Analysis', 'author': 'Shannon Patrick Knight', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 96985, 'title': 'War', 'author': 'Christopher Gregory Pennington', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 9834, 'title': 'Near', 'author': 'Danielle Donna Clark', 'year': 1991, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:15:03,770 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 49802, 'title': 'Board', 'author': 'George John Russell', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 34979, 'title': 'Individual', 'author': 'Michael Kathleen Holland', 'year': 1994, 'status': 'в наличии', 'isbn': None}, {'id': 40799, 'title': 'Analysis', 'author': 'Shannon Patrick Knight', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 96985, 'title': 'War', 'author': 'Christopher Gregory Pennington', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 9834, 'title': 'Near', 'author': 'Danielle Donna Clark', 'year': 1991, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:18:58,531 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=78600)
+2024-11-25 04:18:58,531 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=78600)
+2024-11-25 04:18:58,532 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:18:58,532 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:18:58,533 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 78600
+Автор: Sydney Ashley Reed
+Название: Those
+Год: 1987
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,533 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 78600
+Автор: Sydney Ashley Reed
+Название: Those
+Год: 1987
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,535 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=37716)
+2024-11-25 04:18:58,535 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=37716)
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 37716
+Автор: Stacey Dana Miller
+Название: Up
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 37716
+Автор: Stacey Dana Miller
+Название: Up
+Год: 1994
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=37716)
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> DELETE ERROR: no such book (id=37716)
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=37716)
+2024-11-25 04:18:58,537 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=37716)
+2024-11-25 04:18:58,540 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=44460)
+2024-11-25 04:18:58,540 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=44460)
+2024-11-25 04:18:58,541 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 44460
+Автор: Charles Nathan Jackson
+Название: Prevent
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,541 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 44460
+Автор: Charles Nathan Jackson
+Название: Prevent
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,541 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=44460)
+2024-11-25 04:18:58,541 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=44460)
+2024-11-25 04:18:58,542 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=44460)
+2024-11-25 04:18:58,542 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS ERROR: no such book (id=44460)
+2024-11-25 04:18:58,942 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=44460)
+2024-11-25 04:18:58,942 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=44460)
+2024-11-25 04:18:58,987 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:18:58,987 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:18:58,989 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=611)
+2024-11-25 04:18:58,989 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=611)
+2024-11-25 04:18:58,990 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 611
+Автор: Rachel Anthony Wood
+Название: State
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,990 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 611
+Автор: Rachel Anthony Wood
+Название: State
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,993 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=3678)
+2024-11-25 04:18:58,993 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=3678)
+2024-11-25 04:18:58,994 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 3678
+Автор: Brenda Philip Holden
+Название: Anyone
+Год: 1990
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,994 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 3678
+Автор: Brenda Philip Holden
+Название: Anyone
+Год: 1990
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,997 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=38503)
+2024-11-25 04:18:58,997 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=38503)
+2024-11-25 04:18:58,998 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 38503
+Автор: Alexis Gregory Hickman
+Название: Quickly
+Год: 1986
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:58,998 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 38503
+Автор: Alexis Gregory Hickman
+Название: Quickly
+Год: 1986
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:59,001 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71961)
+2024-11-25 04:18:59,001 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71961)
+2024-11-25 04:18:59,002 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71961
+Автор: Michael Jorge Benitez
+Название: Recent
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:59,002 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71961
+Автор: Michael Jorge Benitez
+Название: Recent
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:59,005 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=42655)
+2024-11-25 04:18:59,005 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=42655)
+2024-11-25 04:18:59,006 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 42655
+Автор: Samantha Dana Patel
+Название: Price
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:59,006 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 42655
+Автор: Samantha Dana Patel
+Название: Price
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:18:59,008 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 611, 'title': 'State', 'author': 'Rachel Anthony Wood', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3678, 'title': 'Anyone', 'author': 'Brenda Philip Holden', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 38503, 'title': 'Quickly', 'author': 'Alexis Gregory Hickman', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 71961, 'title': 'Recent', 'author': 'Michael Jorge Benitez', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 42655, 'title': 'Price', 'author': 'Samantha Dana Patel', 'year': 1972, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:18:59,008 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 611, 'title': 'State', 'author': 'Rachel Anthony Wood', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3678, 'title': 'Anyone', 'author': 'Brenda Philip Holden', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 38503, 'title': 'Quickly', 'author': 'Alexis Gregory Hickman', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 71961, 'title': 'Recent', 'author': 'Michael Jorge Benitez', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 42655, 'title': 'Price', 'author': 'Samantha Dana Patel', 'year': 1972, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:18:59,010 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 611, 'title': 'State', 'author': 'Rachel Anthony Wood', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3678, 'title': 'Anyone', 'author': 'Brenda Philip Holden', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 38503, 'title': 'Quickly', 'author': 'Alexis Gregory Hickman', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 71961, 'title': 'Recent', 'author': 'Michael Jorge Benitez', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 42655, 'title': 'Price', 'author': 'Samantha Dana Patel', 'year': 1972, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:18:59,010 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 611, 'title': 'State', 'author': 'Rachel Anthony Wood', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3678, 'title': 'Anyone', 'author': 'Brenda Philip Holden', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 38503, 'title': 'Quickly', 'author': 'Alexis Gregory Hickman', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 71961, 'title': 'Recent', 'author': 'Michael Jorge Benitez', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 42655, 'title': 'Price', 'author': 'Samantha Dana Patel', 'year': 1972, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:22:12,422 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=47660)
+2024-11-25 04:22:12,423 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 47660
+Автор: Marcus Vanessa Lee
+Название: Future
+Год: 2023
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,426 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=2001)
+2024-11-25 04:22:12,427 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 2001
+Автор: Matthew Sara Lee
+Название: Attorney
+Год: 2018
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,428 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 2001, 'title': 'Attorney', 'author': 'Matthew Sara Lee', 'year': 2018, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:22:12,428 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=2001)
+2024-11-25 04:22:12,430 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=94588)
+2024-11-25 04:22:12,431 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 94588
+Автор: Rebecca Christine Gallegos
+Название: Writer
+Год: 2014
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,432 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=94588) > выдана
+2024-11-25 04:22:12,432 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:22:12,432 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=94588)
+2024-11-25 04:22:12,433 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 94588
+Автор: Rebecca Christine Gallegos
+Название: Writer
+Год: 2014
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,836 - AlexLibLogger - INFO :: Base_Manager >> Data base already exists: /home/arjuna/python_dev/tutorials/django/alexandria_librarian/data_base/alexandria_books.json
+2024-11-25 04:22:12,883 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=540)
+2024-11-25 04:22:12,884 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 540
+Автор: Gregory Anthony Dennis
+Название: Raise
+Год: 1973
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,887 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=27234)
+2024-11-25 04:22:12,888 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 27234
+Автор: Jeffrey Sheri Miller
+Название: Agent
+Год: 1970
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,890 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=79636)
+2024-11-25 04:22:12,891 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 79636
+Автор: John William Ellis
+Название: Room
+Год: 2019
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,893 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=97306)
+2024-11-25 04:22:12,894 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 97306
+Автор: Jessica Benjamin Mendoza
+Название: Under
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,897 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=57738)
+2024-11-25 04:22:12,898 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 57738
+Автор: Angela Brian Foley Jr.
+Название: Share
+Год: 1990
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:22:12,900 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:22:12,903 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:24:08,368 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=95379)
+2024-11-25 04:24:08,369 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 95379
+Автор: George Clayton Smith
+Название: It
+Год: 1982
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,369 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=95379) > выдана
+2024-11-25 04:24:08,371 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:24:08,371 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=95379)
+2024-11-25 04:24:08,372 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 95379
+Автор: George Clayton Smith
+Название: It
+Год: 1982
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,776 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=95508)
+2024-11-25 04:24:08,777 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 95508
+Автор: Nicholas Ryan Booker
+Название: Even
+Год: 2019
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,779 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=59635)
+2024-11-25 04:24:08,780 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 59635
+Автор: Thomas Raymond Leonard
+Название: Still
+Год: 2016
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,781 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 59635, 'title': 'Still', 'author': 'Thomas Raymond Leonard', 'year': 2016, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:24:08,781 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=59635)
+2024-11-25 04:24:08,784 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=98412)
+2024-11-25 04:24:08,785 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 98412
+Автор: Tamara Michele Duran
+Название: Social
+Год: 1989
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,788 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=18433)
+2024-11-25 04:24:08,789 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 18433
+Автор: Shannon Felicia Williams
+Название: Art
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,792 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=41792)
+2024-11-25 04:24:08,793 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 41792
+Автор: Joseph Andrew Porter
+Название: Fine
+Год: 1977
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,795 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=46260)
+2024-11-25 04:24:08,796 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 46260
+Автор: Michael Kelly Myers
+Название: Set
+Год: 1972
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,799 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=3786)
+2024-11-25 04:24:08,800 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 3786
+Автор: James Charles Dominguez
+Название: Film
+Год: 2012
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:24:08,803 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:24:08,806 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:25:17,425 - AlexLibLogger - INFO :: Base_Manager >> Data base already exists: /home/arjuna/python_dev/tutorials/django/alexandria_librarian/data_base/alexandria_books.json
+2024-11-25 04:25:17,473 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=98625)
+2024-11-25 04:25:17,474 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 98625
+Автор: Natalie James Mcbride
+Название: Degree
+Год: 1980
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,475 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=98625) > выдана
+2024-11-25 04:25:17,476 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 98625, 'title': 'Degree', 'author': 'Natalie James Mcbride', 'year': 1980, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:25:17,476 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=98625)
+2024-11-25 04:25:17,477 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 98625
+Автор: Natalie James Mcbride
+Название: Degree
+Год: 1980
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,881 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=9185)
+2024-11-25 04:25:17,882 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 9185
+Автор: Kathleen Margaret Finley
+Название: Story
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,884 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=25920)
+2024-11-25 04:25:17,885 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 25920
+Автор: Jasmin Tanner Whitaker
+Название: Impact
+Год: 1995
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,886 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 25920, 'title': 'Impact', 'author': 'Jasmin Tanner Whitaker', 'year': 1995, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:25:17,886 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=25920)
+2024-11-25 04:25:17,889 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=16710)
+2024-11-25 04:25:17,890 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 16710
+Автор: Gary Edward Solis
+Название: Him
+Год: 1985
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,893 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=81370)
+2024-11-25 04:25:17,894 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 81370
+Автор: Kurt Calvin Hall
+Название: You
+Год: 2020
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,897 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=14830)
+2024-11-25 04:25:17,898 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 14830
+Автор: Amy Patricia Knight
+Название: Individual
+Год: 2021
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,901 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=80620)
+2024-11-25 04:25:17,902 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 80620
+Автор: Andrea Alexander Stone
+Название: He
+Год: 2020
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,905 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=93449)
+2024-11-25 04:25:17,906 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 93449
+Автор: Gilbert Angel Tran
+Название: Blood
+Год: 2011
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:17,908 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 98625, 'title': 'Degree', 'author': 'Natalie James Mcbride', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 9185, 'title': 'Story', 'author': 'Kathleen Margaret Finley', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 16710, 'title': 'Him', 'author': 'Gary Edward Solis', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 81370, 'title': 'You', 'author': 'Kurt Calvin Hall', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 14830, 'title': 'Individual', 'author': 'Amy Patricia Knight', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 80620, 'title': 'He', 'author': 'Andrea Alexander Stone', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 93449, 'title': 'Blood', 'author': 'Gilbert Angel Tran', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:25:17,911 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 98625, 'title': 'Degree', 'author': 'Natalie James Mcbride', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 9185, 'title': 'Story', 'author': 'Kathleen Margaret Finley', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 16710, 'title': 'Him', 'author': 'Gary Edward Solis', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 81370, 'title': 'You', 'author': 'Kurt Calvin Hall', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 14830, 'title': 'Individual', 'author': 'Amy Patricia Knight', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 80620, 'title': 'He', 'author': 'Andrea Alexander Stone', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 93449, 'title': 'Blood', 'author': 'Gilbert Angel Tran', 'year': 2011, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:25:59,680 - AlexLibLogger - INFO :: Base_Manager >> Data base already exists: /home/arjuna/python_dev/tutorials/django/alexandria_librarian/data_base/alexandria_books.json
+2024-11-25 04:25:59,733 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=87013)
+2024-11-25 04:25:59,735 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 87013
+Автор: Elizabeth Shannon Ruiz
+Название: Increase
+Год: 2015
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:25:59,737 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=87013) > выдана
+2024-11-25 04:25:59,739 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 87013, 'title': 'Increase', 'author': 'Elizabeth Shannon Ruiz', 'year': 2015, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:25:59,739 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=87013)
+2024-11-25 04:25:59,741 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 87013
+Автор: Elizabeth Shannon Ruiz
+Название: Increase
+Год: 2015
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,145 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=50322)
+2024-11-25 04:26:00,147 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 50322
+Автор: Justin Diana Levy
+Название: Rest
+Год: 1980
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,153 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=11298)
+2024-11-25 04:26:00,155 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 11298
+Автор: Amy David Jones
+Название: Agree
+Год: 1976
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,157 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 11298, 'title': 'Agree', 'author': 'Amy David Jones', 'year': 1976, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:26:00,157 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=11298)
+2024-11-25 04:26:00,162 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=85949)
+2024-11-25 04:26:00,164 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 85949
+Автор: Rachel George Mcfarland
+Название: Wrong
+Год: 2002
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,170 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=17396)
+2024-11-25 04:26:00,172 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 17396
+Автор: Danielle Krystal Wilson
+Название: Seek
+Год: 2011
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,178 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71744)
+2024-11-25 04:26:00,181 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71744
+Автор: Molly Matthew Williamson
+Название: Want
+Год: 1973
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,187 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=68650)
+2024-11-25 04:26:00,189 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 68650
+Автор: Elizabeth Melanie Reyes
+Название: Southern
+Год: 1983
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,195 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=6488)
+2024-11-25 04:26:00,198 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 6488
+Автор: Jo Roger Martin
+Название: Nearly
+Год: 1978
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:00,204 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 98625, 'title': 'Degree', 'author': 'Natalie James Mcbride', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 9185, 'title': 'Story', 'author': 'Kathleen Margaret Finley', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 16710, 'title': 'Him', 'author': 'Gary Edward Solis', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 81370, 'title': 'You', 'author': 'Kurt Calvin Hall', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 14830, 'title': 'Individual', 'author': 'Amy Patricia Knight', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 80620, 'title': 'He', 'author': 'Andrea Alexander Stone', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 93449, 'title': 'Blood', 'author': 'Gilbert Angel Tran', 'year': 2011, 'status': 'в наличии', 'isbn': None}, {'id': 87013, 'title': 'Increase', 'author': 'Elizabeth Shannon Ruiz', 'year': 2015, 'status': 'выдана', 'isbn': None}, {'id': 50322, 'title': 'Rest', 'author': 'Justin Diana Levy', 'year': 1980, 'status': 'в наличии', 'isbn': None}, {'id': 85949, 'title': 'Wrong', 'author': 'Rachel George Mcfarland', 'year': 2002, 'status': 'в наличии', 'isbn': None}, {'id': 17396, 'title': 'Seek', 'author': 'Danielle Krystal Wilson', 'year': 2011, 'status': 'в наличии', 'isbn': None}, {'id': 71744, 'title': 'Want', 'author': 'Molly Matthew Williamson', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 68650, 'title': 'Southern', 'author': 'Elizabeth Melanie Reyes', 'year': 1983, 'status': 'в наличии', 'isbn': None}, {'id': 6488, 'title': 'Nearly', 'author': 'Jo Roger Martin', 'year': 1978, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:26:00,214 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 46925, 'title': 'Ball', 'author': 'Joel Jennifer Martinez', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 64995, 'title': 'Last', 'author': 'Michelle Teresa Bass', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 3221, 'title': 'Maybe', 'author': 'Andrea Gary Reed', 'year': 2005, 'status': 'в наличии', 'isbn': None}, {'id': 39103, 'title': 'Push', 'author': 'Christopher Kelly Price', 'year': 1987, 'status': 'выдана', 'isbn': None}, {'id': 50578, 'title': 'Describe', 'author': 'Alison Shane Larson', 'year': 2008, 'status': 'в наличии', 'isbn': None}, {'id': 40943, 'title': 'Guess', 'author': 'Rodney Austin Jackson', 'year': 2017, 'status': 'выдана', 'isbn': None}, {'id': 47660, 'title': 'Future', 'author': 'Marcus Vanessa Lee', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 94588, 'title': 'Writer', 'author': 'Rebecca Christine Gallegos', 'year': 2014, 'status': 'выдана', 'isbn': None}, {'id': 540, 'title': 'Raise', 'author': 'Gregory Anthony Dennis', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 27234, 'title': 'Agent', 'author': 'Jeffrey Sheri Miller', 'year': 1970, 'status': 'в наличии', 'isbn': None}, {'id': 79636, 'title': 'Room', 'author': 'John William Ellis', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 97306, 'title': 'Under', 'author': 'Jessica Benjamin Mendoza', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 57738, 'title': 'Share', 'author': 'Angela Brian Foley Jr.', 'year': 1990, 'status': 'в наличии', 'isbn': None}, {'id': 95379, 'title': 'It', 'author': 'George Clayton Smith', 'year': 1982, 'status': 'выдана', 'isbn': None}, {'id': 95508, 'title': 'Even', 'author': 'Nicholas Ryan Booker', 'year': 2019, 'status': 'в наличии', 'isbn': None}, {'id': 98412, 'title': 'Social', 'author': 'Tamara Michele Duran', 'year': 1989, 'status': 'в наличии', 'isbn': None}, {'id': 18433, 'title': 'Art', 'author': 'Shannon Felicia Williams', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 41792, 'title': 'Fine', 'author': 'Joseph Andrew Porter', 'year': 1977, 'status': 'в наличии', 'isbn': None}, {'id': 46260, 'title': 'Set', 'author': 'Michael Kelly Myers', 'year': 1972, 'status': 'в наличии', 'isbn': None}, {'id': 3786, 'title': 'Film', 'author': 'James Charles Dominguez', 'year': 2012, 'status': 'в наличии', 'isbn': None}, {'id': 98625, 'title': 'Degree', 'author': 'Natalie James Mcbride', 'year': 1980, 'status': 'выдана', 'isbn': None}, {'id': 9185, 'title': 'Story', 'author': 'Kathleen Margaret Finley', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 16710, 'title': 'Him', 'author': 'Gary Edward Solis', 'year': 1985, 'status': 'в наличии', 'isbn': None}, {'id': 81370, 'title': 'You', 'author': 'Kurt Calvin Hall', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 14830, 'title': 'Individual', 'author': 'Amy Patricia Knight', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 80620, 'title': 'He', 'author': 'Andrea Alexander Stone', 'year': 2020, 'status': 'в наличии', 'isbn': None}, {'id': 93449, 'title': 'Blood', 'author': 'Gilbert Angel Tran', 'year': 2011, 'status': 'в наличии', 'isbn': None}, {'id': 87013, 'title': 'Increase', 'author': 'Elizabeth Shannon Ruiz', 'year': 2015, 'status': 'выдана', 'isbn': None}, {'id': 50322, 'title': 'Rest', 'author': 'Justin Diana Levy', 'year': 1980, 'status': 'в наличии', 'isbn': None}, {'id': 85949, 'title': 'Wrong', 'author': 'Rachel George Mcfarland', 'year': 2002, 'status': 'в наличии', 'isbn': None}, {'id': 17396, 'title': 'Seek', 'author': 'Danielle Krystal Wilson', 'year': 2011, 'status': 'в наличии', 'isbn': None}, {'id': 71744, 'title': 'Want', 'author': 'Molly Matthew Williamson', 'year': 1973, 'status': 'в наличии', 'isbn': None}, {'id': 68650, 'title': 'Southern', 'author': 'Elizabeth Melanie Reyes', 'year': 1983, 'status': 'в наличии', 'isbn': None}, {'id': 6488, 'title': 'Nearly', 'author': 'Jo Roger Martin', 'year': 1978, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:26:50,317 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-25 04:26:50,320 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=38240)
+2024-11-25 04:26:50,322 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 38240
+Автор: Shawn Emily Crawford
+Название: World
+Год: 1976
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,322 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=38240) > выдана
+2024-11-25 04:26:50,323 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 38240, 'title': 'World', 'author': 'Shawn Emily Crawford', 'year': 1976, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:26:50,323 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=38240)
+2024-11-25 04:26:50,324 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 38240
+Автор: Shawn Emily Crawford
+Название: World
+Год: 1976
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,727 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=31947)
+2024-11-25 04:26:50,728 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 31947
+Автор: Julie Monique Williams
+Название: Work
+Год: 2021
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,730 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=65900)
+2024-11-25 04:26:50,731 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 65900
+Автор: Brooke William Burton
+Название: Move
+Год: 2000
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,732 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 65900, 'title': 'Move', 'author': 'Brooke William Burton', 'year': 2000, 'status': 'в наличии', 'isbn': None}
+2024-11-25 04:26:50,732 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=65900)
+2024-11-25 04:26:50,734 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=72082)
+2024-11-25 04:26:50,735 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 72082
+Автор: Megan Tyler Wagner
+Название: Remain
+Год: 1978
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,737 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=31135)
+2024-11-25 04:26:50,738 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 31135
+Автор: Joseph Gina Griffith
+Название: Democrat
+Год: 1975
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,741 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=11199)
+2024-11-25 04:26:50,743 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 11199
+Автор: Monica David Powell
+Название: Age
+Год: 1991
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,746 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=55443)
+2024-11-25 04:26:50,748 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 55443
+Автор: Jamie Cynthia Jennings
+Название: Business
+Год: 1997
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,751 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=91226)
+2024-11-25 04:26:50,752 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 91226
+Автор: Ronnie Pamela Foster
+Название: Laugh
+Год: 2008
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-25 04:26:50,754 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 38240, 'title': 'World', 'author': 'Shawn Emily Crawford', 'year': 1976, 'status': 'выдана', 'isbn': None}, {'id': 31947, 'title': 'Work', 'author': 'Julie Monique Williams', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 72082, 'title': 'Remain', 'author': 'Megan Tyler Wagner', 'year': 1978, 'status': 'в наличии', 'isbn': None}, {'id': 31135, 'title': 'Democrat', 'author': 'Joseph Gina Griffith', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 11199, 'title': 'Age', 'author': 'Monica David Powell', 'year': 1991, 'status': 'в наличии', 'isbn': None}, {'id': 55443, 'title': 'Business', 'author': 'Jamie Cynthia Jennings', 'year': 1997, 'status': 'в наличии', 'isbn': None}, {'id': 91226, 'title': 'Laugh', 'author': 'Ronnie Pamela Foster', 'year': 2008, 'status': 'в наличии', 'isbn': None}]
+2024-11-25 04:26:50,756 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 38240, 'title': 'World', 'author': 'Shawn Emily Crawford', 'year': 1976, 'status': 'выдана', 'isbn': None}, {'id': 31947, 'title': 'Work', 'author': 'Julie Monique Williams', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 72082, 'title': 'Remain', 'author': 'Megan Tyler Wagner', 'year': 1978, 'status': 'в наличии', 'isbn': None}, {'id': 31135, 'title': 'Democrat', 'author': 'Joseph Gina Griffith', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 11199, 'title': 'Age', 'author': 'Monica David Powell', 'year': 1991, 'status': 'в наличии', 'isbn': None}, {'id': 55443, 'title': 'Business', 'author': 'Jamie Cynthia Jennings', 'year': 1997, 'status': 'в наличии', 'isbn': None}, {'id': 91226, 'title': 'Laugh', 'author': 'Ronnie Pamela Foster', 'year': 2008, 'status': 'в наличии', 'isbn': None}]

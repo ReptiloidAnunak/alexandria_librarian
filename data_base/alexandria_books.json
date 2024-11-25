@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "id": 46925,
+        "title": "Ball",
+        "author": "Joel Jennifer Martinez",
+        "year": 1975,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 64995,
+        "title": "Last",
+        "author": "Michelle Teresa Bass",
+        "year": 1980,
+        "status": "выдана",
+        "isbn": null
+    },
+    {
+        "id": 3221,
+        "title": "Maybe",
+        "author": "Andrea Gary Reed",
+        "year": 2005,
+        "status": "в наличии",
+        "isbn": null
+    },
+    {
+        "id": 39103,
+        "title": "Push",
+        "author": "Christopher Kelly Price",
+        "year": 1987,
+        "status": "выдана",
+        "isbn": null
+    }
+]

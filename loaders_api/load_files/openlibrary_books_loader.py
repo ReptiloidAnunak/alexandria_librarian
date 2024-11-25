@@ -48,3 +48,7 @@ def load_openlibrary_books_info(base_manager: BaseManager) -> bool:
 
     return True
     #
+
+if __name__ == "__main__":
+    base_manager = BaseManager()
+    load_openlibrary_books_info(base_manager)

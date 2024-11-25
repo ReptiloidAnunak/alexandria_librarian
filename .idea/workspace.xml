@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ed17ca-5fd6-4770-901b-7f3e5514ca36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_books_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/books_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textual_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/textual_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/alexandria_books.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/buttons/buttons_ok.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/buttons/buttons_ok.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loaders_api/load_files/openlibrary_books_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loaders_api/load_files/openlibrary_books_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger_app/alex_lib.log" beforeDir="false" afterPath="$PROJECT_DIR$/logger_app/alex_lib.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_books_main.test_delete_book.executor": "Run",
+    "Python tests.Python tests in test_books_main.py.executor": "Run",
     "Python.base_manager.executor": "Run",
     "Python.create_alex_lib_logger.executor": "Run",
     "Python.draft.executor": "Run",
@@ -82,36 +83,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_base" />
       <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids/buttons" />
       <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids/crud_widgets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids" />
-      <recent name="$PROJECT_DIR$/backend/loaders_api/load_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.loader_api_model">
-    <configuration name="load_by_api_wid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alexandria_librarian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface/widgets/books_load_api_wids" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/widgets/books_load_api_wids/load_by_api_wid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_books_main.test_delete_book">
     <configuration name="loader_api_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
@@ -156,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openlibrary_books_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loaders_api/load_files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loaders_api/load_files/openlibrary_books_loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,35 +157,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_books_main.test_delete_book" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_books_main.test_delete_book&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_books_main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="alexandria_librarian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_books_main.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_books_main.test_delete_book" />
+        <item itemvalue="Python tests.Python tests in test_books_main.py" />
+        <item itemvalue="Python.openlibrary_books_loader" />
         <item itemvalue="Python.loader_api_model" />
         <item itemvalue="Python.logger_terminal_log_file_reader" />
-        <item itemvalue="Python.load_by_api_wid" />
-        <item itemvalue="Python.settings" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

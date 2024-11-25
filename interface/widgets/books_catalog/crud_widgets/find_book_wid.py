@@ -4,7 +4,7 @@
 from textual.app import ComposeResult
 from textual.widgets import Button, Label, Input, Select
 from textual.containers import HorizontalGroup, Vertical
-from interface.widgets.catalog_wids.buttons.buttons_ok import ButtonOkFindBook
+from interface.widgets.books_catalog.buttons.buttons_ok import ButtonOkFindBook
 
 
 class FindBookWidget(HorizontalGroup):

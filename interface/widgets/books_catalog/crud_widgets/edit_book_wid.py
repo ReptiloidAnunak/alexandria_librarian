@@ -5,7 +5,7 @@ from textual.widgets import Button, Label, Input, Select
 from textual.containers import HorizontalGroup, Vertical
 from textual import on
 from data_base.models import BookStatus
-from interface.widgets.catalog_wids.buttons.buttons_ok import ButtonOkEditBook
+from interface.widgets.books_catalog.buttons.buttons_ok import ButtonOkEditBook
 
 
 class EditBookStatusWidget(HorizontalGroup):

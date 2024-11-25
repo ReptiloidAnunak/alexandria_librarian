@@ -5,31 +5,29 @@ from tkinter.tix import CheckList
 from typing import List
 import time
 from textual.app import App, ComposeResult
-from textual.demo.widgets import Checkbox
-from textual.widgets import Header, Footer, Button, Static, LoadingIndicator
-from textual.containers import VerticalGroup, HorizontalGroup
-import settings
-from backend.loaders_api.load_files.openlibrary_books_loader import load_openlibrary_books_info
-from backend.loaders_api.loader_api_model import LoaderAPI
+from textual.widgets import Header, Footer, Button, Static
+from textual.containers import VerticalGroup
 from textual.widgets import Log
+
+
 from data_base.management.base_manager import BaseManager
-from interface.widgets.books_catalog import BooksCatalog
+from interface.widgets.books_catalog.books_catalog import BooksCatalog
 from interface.widgets.data_tables import BooksDataTable
 from interface.widgets.loaders_checkboxes_group import LoadersCheckboxGroup
 from logger_app.loggers.interface_logger import create_interface_logger
-from settings import LOADERS_LST
-
+from loaders_api.load_files.openlibrary_books_loader import load_openlibrary_books_info
 
 
 class MainMenu(VerticalGroup):
     def compose(self) -> ComposeResult:
-        yield Button("Books Catalog", id='btn_books_catalog')
-        yield Button("Load books by API", id='btn_books_load_api')
-        yield Button("Quit", id='quit_app')
+        yield Button("Books Catalog", id='btn_books_catalog', variant='primary')
+        yield Button("Load books by API", id='btn_books_load_api', variant='primary')
+        yield Button("Quit", id='quit_app', variant='primary')
         self.app.logs.info('MAIN_MENU :: composed')
 
 
 class AlexLibraryApp(App):
+    AUTO_FOCUS = Button
     CSS_PATH = os.path.join('interface', 'static', 'style.tcss')
     name = 'Alexandria Library'
     db_manager = BaseManager()

@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ed17ca-5fd6-4770-901b-7f3e5514ca36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/loaders_api/load_files/loader_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/loaders_api/loader_api_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/books_load_api_wids/load_by_api_wid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/loaders_api/openlibrary_books_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/loaders_api/load_files/openlibrary_books_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/alexandria_books.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/management/base_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/management/base_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/management/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/management/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/books_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/change_catalog_wids.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger_app/alex_lib.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textual_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/textual_app.py" afterDir="false" />
     </list>
@@ -67,6 +62,7 @@
     "Python.init_main_logger.executor": "Run",
     "Python.interface_main.executor": "Run",
     "Python.load_by_api_wid.executor": "Run",
+    "Python.loader_api_model.executor": "Debug",
     "Python.loader_model.executor": "Run",
     "Python.logger_main.executor": "Run",
     "Python.logger_terminal_log_file_reader.executor": "Run",
@@ -86,11 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/loaders_api/load_files" />
+      <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids/buttons" />
+      <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids/crud_widgets" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/interface/static" />
-      <recent name="$PROJECT_DIR$/interface" />
-      <recent name="$PROJECT_DIR$/logger_app/loggers" />
+      <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids" />
+      <recent name="$PROJECT_DIR$/backend/loaders_api/load_files" />
     </key>
   </component>
   <component name="RunManager" selected="Python.loader_api_model">
@@ -206,8 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logger_terminal_log_file_reader" />
         <item itemvalue="Python.loader_api_model" />
+        <item itemvalue="Python.logger_terminal_log_file_reader" />
         <item itemvalue="Python.load_by_api_wid" />
         <item itemvalue="Python.settings" />
         <item itemvalue="Python.main" />

@@ -20,6 +20,6 @@ APP_LOGGER_NAME = 'AlexLibLogger'
 MAIN_LOGGER_NAME = 'MAIN_LOG'
 
 
-LOADERS_DIR = os.path.abspath(os.path.join(ROOT_DIR, 'backend', 'loaders_api', 'load_files'))
+LOADERS_DIR = os.path.abspath(os.path.join(ROOT_DIR, 'loaders_api', 'load_files'))
 LOADERS_LST = os.listdir(LOADERS_DIR)
 

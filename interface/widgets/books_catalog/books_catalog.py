@@ -7,10 +7,10 @@ from textual.containers import VerticalGroup, HorizontalGroup
 from data_base.management.base_manager import BaseManager
 from data_base.models import Book
 from interface.widgets.books_load_api_wids.load_by_api_wid import LoadBooksApiWid
-from interface.widgets.catalog_wids.crud_widgets.add_book_wid import BookAddWidget
-from interface.widgets.catalog_wids.crud_widgets.delete_book_wid import DeleteBookWidget
-from interface.widgets.catalog_wids.crud_widgets.edit_book_wid import EditBookStatusWidget
-from interface.widgets.catalog_wids.crud_widgets.find_book_wid import FindBookWidget
+from interface.widgets.books_catalog.crud_widgets.add_book_wid import BookAddWidget
+from interface.widgets.books_catalog.crud_widgets.delete_book_wid import DeleteBookWidget
+from interface.widgets.books_catalog.crud_widgets.edit_book_wid import EditBookStatusWidget
+from interface.widgets.books_catalog.crud_widgets.find_book_wid import FindBookWidget
 
 class ChangeCatalogWidget(HorizontalGroup):
 

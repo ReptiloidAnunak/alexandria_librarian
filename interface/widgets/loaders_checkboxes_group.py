@@ -6,7 +6,7 @@ from textual.demo.widgets import Checkbox
 from textual.widgets import Header, Footer, Button, Static
 from textual.containers import VerticalGroup, HorizontalGroup
 
-from backend.loaders_api.loader_api_model import LoaderAPI
+from loaders_api.loader_api_model import LoaderAPI
 from settings import LOADERS_LST
 
 

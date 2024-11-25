@@ -5,7 +5,7 @@ from textual.widgets import Button, Label, Input, Select
 from textual.containers import HorizontalGroup, Vertical
 from textual import on
 from data_base.models import Book, BookStatus
-from interface.widgets.catalog_wids.buttons.buttons_ok import ButtonOkAddBook
+from interface.widgets.books_catalog.buttons.buttons_ok import ButtonOkAddBook
 
 class BookAddWidget(HorizontalGroup):
     def __init__(self, *args, **kwargs):

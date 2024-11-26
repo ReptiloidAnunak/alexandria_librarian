@@ -1,10 +1,18 @@
 # **Alexandrian Librarian**
 v.0.1
-
-### **Description**
-#### Technologies stack
+#### Stack:
 `pydantic, pyfiglet, faker, pyisbn, requests, textual, colorama, colorlog, pytest
 `
+
+![main_menu.png](screenshots/main_menu.png)
+<br>
+![books_catalog.png](screenshots/books_catalog.png)
+<br>
+![add_book.png](screenshots/add_book.png)
+<br>
+![del_book.png](screenshots/del_book.png)
+
+### **Description**
 
 # Library Management Application
 

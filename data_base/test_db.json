@@ -1,57 +1,57 @@
 [
     {
-        "id": 75906,
-        "title": "Play",
-        "author": "Tina David Walker",
-        "year": 2014,
+        "id": 2313,
+        "title": "Friend",
+        "author": "Christina Sherry Morris",
+        "year": 2008,
         "status": "выдана",
         "isbn": null
     },
     {
-        "id": 46646,
-        "title": "Run",
-        "author": "Valerie Ronald Douglas",
-        "year": 1982,
+        "id": 11100,
+        "title": "Spring",
+        "author": "Henry Dana Garcia",
+        "year": 1986,
         "status": "в наличии",
         "isbn": null
     },
     {
-        "id": 70171,
-        "title": "Manage",
-        "author": "Jason Susan Thompson",
-        "year": 2006,
+        "id": 7343,
+        "title": "Another",
+        "author": "John Travis Dunn",
+        "year": 1975,
         "status": "в наличии",
         "isbn": null
     },
     {
-        "id": 62278,
-        "title": "Happy",
-        "author": "Samuel Robert Deleon",
-        "year": 1992,
+        "id": 3589,
+        "title": "Door",
+        "author": "Amy Patricia Fernandez MD",
+        "year": 1976,
         "status": "в наличии",
         "isbn": null
     },
     {
-        "id": 36828,
-        "title": "Tend",
-        "author": "Nicole Veronica Miller",
-        "year": 1988,
+        "id": 19172,
+        "title": "Her",
+        "author": "Sally Miranda Burns",
+        "year": 2018,
         "status": "в наличии",
         "isbn": null
     },
     {
-        "id": 32877,
-        "title": "Teach",
-        "author": "Richard Jennifer Webb",
+        "id": 42445,
+        "title": "Language",
+        "author": "Miranda Rachel Weaver",
         "year": 1984,
         "status": "в наличии",
         "isbn": null
     },
     {
-        "id": 49758,
-        "title": "Process",
-        "author": "Mathew Heather Hart",
-        "year": 2024,
+        "id": 38766,
+        "title": "Significant",
+        "author": "Madeline Stephanie Crawford",
+        "year": 1978,
         "status": "в наличии",
         "isbn": null
     }

@@ -10368,3 +10368,321 @@ Book
 2024-11-26 16:01:48,375 - AlexLibLogger - INFO :: INTERFACE >> BUTTON pressed :: btn_del_book
 2024-11-26 16:01:48,375 - AlexLibLogger - INFO :: INTERFACE >> BUTTON pressed :: btn_del_book
 2024-11-26 16:01:48,375 - AlexLibLogger - INFO :: INTERFACE >> BUTTON pressed :: btn_del_book
+2024-11-26 20:13:37,739 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-26 20:13:37,741 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=44869)
+2024-11-26 20:13:37,741 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 44869
+Автор: Valerie Martin Beck
+Название: Few
+Год: 2022
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:37,742 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=44869) > выдана
+2024-11-26 20:13:37,742 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 44869, 'title': 'Few', 'author': 'Valerie Martin Beck', 'year': 2022, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:13:37,742 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=44869)
+2024-11-26 20:13:37,743 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 44869
+Автор: Valerie Martin Beck
+Название: Few
+Год: 2022
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,145 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=17310)
+2024-11-26 20:13:38,146 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 17310
+Автор: Wayne Jacqueline Hardin
+Название: Remember
+Год: 2023
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,147 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=18355)
+2024-11-26 20:13:38,148 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 18355
+Автор: Alex Kevin Phillips
+Название: Actually
+Год: 1982
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,148 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 18355, 'title': 'Actually', 'author': 'Alex Kevin Phillips', 'year': 1982, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:13:38,149 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=18355)
+2024-11-26 20:13:38,150 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=10043)
+2024-11-26 20:13:38,151 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 10043
+Автор: Denise Kevin Nguyen
+Название: Husband
+Год: 1975
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,152 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=44768)
+2024-11-26 20:13:38,152 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 44768
+Автор: Anne Charles Wells
+Название: Government
+Год: 2021
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,154 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=73591)
+2024-11-26 20:13:38,155 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 73591
+Автор: Christine Christina Sparks
+Название: Scientist
+Год: 1986
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,156 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=57147)
+2024-11-26 20:13:38,157 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 57147
+Автор: Mario Carol Nolan
+Название: Example
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,158 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=31913)
+2024-11-26 20:13:38,159 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 31913
+Автор: Amy Catherine Reed
+Название: Whether
+Год: 2012
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:13:38,160 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 44869, 'title': 'Few', 'author': 'Valerie Martin Beck', 'year': 2022, 'status': 'выдана', 'isbn': None}, {'id': 17310, 'title': 'Remember', 'author': 'Wayne Jacqueline Hardin', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 10043, 'title': 'Husband', 'author': 'Denise Kevin Nguyen', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 44768, 'title': 'Government', 'author': 'Anne Charles Wells', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 73591, 'title': 'Scientist', 'author': 'Christine Christina Sparks', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 57147, 'title': 'Example', 'author': 'Mario Carol Nolan', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 31913, 'title': 'Whether', 'author': 'Amy Catherine Reed', 'year': 2012, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 20:13:38,161 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 44869, 'title': 'Few', 'author': 'Valerie Martin Beck', 'year': 2022, 'status': 'выдана', 'isbn': None}, {'id': 17310, 'title': 'Remember', 'author': 'Wayne Jacqueline Hardin', 'year': 2023, 'status': 'в наличии', 'isbn': None}, {'id': 10043, 'title': 'Husband', 'author': 'Denise Kevin Nguyen', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 44768, 'title': 'Government', 'author': 'Anne Charles Wells', 'year': 2021, 'status': 'в наличии', 'isbn': None}, {'id': 73591, 'title': 'Scientist', 'author': 'Christine Christina Sparks', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 57147, 'title': 'Example', 'author': 'Mario Carol Nolan', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 31913, 'title': 'Whether', 'author': 'Amy Catherine Reed', 'year': 2012, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 20:21:28,920 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-26 20:21:28,922 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=6327)
+2024-11-26 20:21:28,922 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 6327
+Автор: Eric Rebecca Pena
+Название: Page
+Год: 2022
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:28,923 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=6327) > выдана
+2024-11-26 20:21:28,923 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 6327, 'title': 'Page', 'author': 'Eric Rebecca Pena', 'year': 2022, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:21:28,924 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=6327)
+2024-11-26 20:21:28,924 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 6327
+Автор: Eric Rebecca Pena
+Название: Page
+Год: 2022
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,327 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=74427)
+2024-11-26 20:21:29,327 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 74427
+Автор: Joseph Kelly Perez
+Название: Gas
+Год: 2000
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,329 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=30439)
+2024-11-26 20:21:29,330 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 30439
+Автор: Christina Evan Reed
+Название: Easy
+Год: 1993
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,330 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 30439, 'title': 'Easy', 'author': 'Christina Evan Reed', 'year': 1993, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:21:29,330 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=30439)
+2024-11-26 20:21:29,332 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=71730)
+2024-11-26 20:21:29,332 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 71730
+Автор: Christina Robert Greene
+Название: Return
+Год: 2006
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,334 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=32885)
+2024-11-26 20:21:29,334 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 32885
+Автор: Amanda Sarah Foster
+Название: Relate
+Год: 1987
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,336 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=83398)
+2024-11-26 20:21:29,336 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 83398
+Автор: Cesar Amanda Le
+Название: These
+Год: 1993
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,338 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=97983)
+2024-11-26 20:21:29,338 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 97983
+Автор: Ronald Jonathan Evans
+Название: Rich
+Год: 1988
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,339 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=95786)
+2024-11-26 20:21:29,340 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 95786
+Автор: Sherri Rebekah Henry
+Название: Exactly
+Год: 2003
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:21:29,341 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 6327, 'title': 'Page', 'author': 'Eric Rebecca Pena', 'year': 2022, 'status': 'выдана', 'isbn': None}, {'id': 74427, 'title': 'Gas', 'author': 'Joseph Kelly Perez', 'year': 2000, 'status': 'в наличии', 'isbn': None}, {'id': 71730, 'title': 'Return', 'author': 'Christina Robert Greene', 'year': 2006, 'status': 'в наличии', 'isbn': None}, {'id': 32885, 'title': 'Relate', 'author': 'Amanda Sarah Foster', 'year': 1987, 'status': 'в наличии', 'isbn': None}, {'id': 83398, 'title': 'These', 'author': 'Cesar Amanda Le', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 97983, 'title': 'Rich', 'author': 'Ronald Jonathan Evans', 'year': 1988, 'status': 'в наличии', 'isbn': None}, {'id': 95786, 'title': 'Exactly', 'author': 'Sherri Rebekah Henry', 'year': 2003, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 20:21:29,342 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 6327, 'title': 'Page', 'author': 'Eric Rebecca Pena', 'year': 2022, 'status': 'выдана', 'isbn': None}, {'id': 74427, 'title': 'Gas', 'author': 'Joseph Kelly Perez', 'year': 2000, 'status': 'в наличии', 'isbn': None}, {'id': 71730, 'title': 'Return', 'author': 'Christina Robert Greene', 'year': 2006, 'status': 'в наличии', 'isbn': None}, {'id': 32885, 'title': 'Relate', 'author': 'Amanda Sarah Foster', 'year': 1987, 'status': 'в наличии', 'isbn': None}, {'id': 83398, 'title': 'These', 'author': 'Cesar Amanda Le', 'year': 1993, 'status': 'в наличии', 'isbn': None}, {'id': 97983, 'title': 'Rich', 'author': 'Ronald Jonathan Evans', 'year': 1988, 'status': 'в наличии', 'isbn': None}, {'id': 95786, 'title': 'Exactly', 'author': 'Sherri Rebekah Henry', 'year': 2003, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 20:22:43,323 - AlexLibLogger - INFO :: Base_Manager >> Data base has been created
+2024-11-26 20:22:43,325 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=2313)
+2024-11-26 20:22:43,325 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 2313
+Автор: Christina Sherry Morris
+Название: Friend
+Год: 2008
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,325 - AlexLibLogger - INFO :: Base_Manager >> CHANGE STATUS: book (id=2313) > выдана
+2024-11-26 20:22:43,326 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 2313, 'title': 'Friend', 'author': 'Christina Sherry Morris', 'year': 2008, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:22:43,326 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=2313)
+2024-11-26 20:22:43,326 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 2313
+Автор: Christina Sherry Morris
+Название: Friend
+Год: 2008
+Статус: выдана
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,729 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=11100)
+2024-11-26 20:22:43,730 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 11100
+Автор: Henry Dana Garcia
+Название: Spring
+Год: 1986
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,732 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=16719)
+2024-11-26 20:22:43,732 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 16719
+Автор: Stephanie Margaret Johnson
+Название: Within
+Год: 2017
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,733 - AlexLibLogger - INFO :: Base_Manager >> Book deleted: {'id': 16719, 'title': 'Within', 'author': 'Stephanie Margaret Johnson', 'year': 2017, 'status': 'в наличии', 'isbn': None}
+2024-11-26 20:22:43,733 - AlexLibLogger - INFO :: Base_Manager >> GET BOOK BY ID ERROR: no such book (id=16719)
+2024-11-26 20:22:43,734 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=7343)
+2024-11-26 20:22:43,735 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 7343
+Автор: John Travis Dunn
+Название: Another
+Год: 1975
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,736 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=3589)
+2024-11-26 20:22:43,737 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 3589
+Автор: Amy Patricia Fernandez MD
+Название: Door
+Год: 1976
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,738 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=19172)
+2024-11-26 20:22:43,739 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 19172
+Автор: Sally Miranda Burns
+Название: Her
+Год: 2018
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,740 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=42445)
+2024-11-26 20:22:43,741 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 42445
+Автор: Miranda Rachel Weaver
+Название: Language
+Год: 1984
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,742 - AlexLibLogger - INFO :: Base_Manager >> Adding book (id=38766)
+2024-11-26 20:22:43,742 - AlexLibLogger - INFO :: Base_Manager >> 
+______________________________
+Book 
+№ 38766
+Автор: Madeline Stephanie Crawford
+Название: Significant
+Год: 1978
+Статус: в наличии
+~~~~~~~~~
+ has been added to data base
+2024-11-26 20:22:43,743 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 2313, 'title': 'Friend', 'author': 'Christina Sherry Morris', 'year': 2008, 'status': 'выдана', 'isbn': None}, {'id': 11100, 'title': 'Spring', 'author': 'Henry Dana Garcia', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 7343, 'title': 'Another', 'author': 'John Travis Dunn', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 3589, 'title': 'Door', 'author': 'Amy Patricia Fernandez MD', 'year': 1976, 'status': 'в наличии', 'isbn': None}, {'id': 19172, 'title': 'Her', 'author': 'Sally Miranda Burns', 'year': 2018, 'status': 'в наличии', 'isbn': None}, {'id': 42445, 'title': 'Language', 'author': 'Miranda Rachel Weaver', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 38766, 'title': 'Significant', 'author': 'Madeline Stephanie Crawford', 'year': 1978, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 20:22:43,745 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 2313, 'title': 'Friend', 'author': 'Christina Sherry Morris', 'year': 2008, 'status': 'выдана', 'isbn': None}, {'id': 11100, 'title': 'Spring', 'author': 'Henry Dana Garcia', 'year': 1986, 'status': 'в наличии', 'isbn': None}, {'id': 7343, 'title': 'Another', 'author': 'John Travis Dunn', 'year': 1975, 'status': 'в наличии', 'isbn': None}, {'id': 3589, 'title': 'Door', 'author': 'Amy Patricia Fernandez MD', 'year': 1976, 'status': 'в наличии', 'isbn': None}, {'id': 19172, 'title': 'Her', 'author': 'Sally Miranda Burns', 'year': 2018, 'status': 'в наличии', 'isbn': None}, {'id': 42445, 'title': 'Language', 'author': 'Miranda Rachel Weaver', 'year': 1984, 'status': 'в наличии', 'isbn': None}, {'id': 38766, 'title': 'Significant', 'author': 'Madeline Stephanie Crawford', 'year': 1978, 'status': 'в наличии', 'isbn': None}]

@@ -33,6 +33,8 @@ The application provides the following functionalities:
 5. **Update book status**:  
    Users can update a book's status to either "available" or "checked out" by providing its unique ID.
 
+6. Load books by api from site and put in into database. There is only ona loader: loaders_api/loader_api_model.py.<br>
+This is a demo version of the additional service.
 
 ## Installation
 
@@ -54,6 +56,11 @@ If you do not have Docker installed, download it by following the instructions o
 Download or clone the project folder (`git clone https://github.com/ReptiloidAnunak/joker_batman_ai`)
 Ensure that you are in the root directory where the Dockerfile is located<br>Run the Docker container build command: `docker build -t alexandrian_librarian .`
 Run the Docker container: <br>`docker run -it alexandrian_librarian`
+
+## Test 
+Run in the root app dir<br>
+`cd your/sys_path/alexandria_librarian/`<br>
+`python -m pytest`
 
 ## Bugs
 

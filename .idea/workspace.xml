@@ -7,20 +7,7 @@
     <list default="true" id="63ed17ca-5fd6-4770-901b-7f3e5514ca36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/alexandria_books.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/management/base_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/management/base_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/test_db.json" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/test_db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/add_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/delete_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/edit_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/books_catalog/crud_widgets/find_book_wid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets/loaders_checkboxes_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loaders_api/load_files/openlibrary_books_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loaders_api/load_files/openlibrary_books_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger_app/alex_lib.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_books_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_books_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textual_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/textual_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

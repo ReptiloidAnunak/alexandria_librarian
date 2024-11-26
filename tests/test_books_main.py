@@ -12,6 +12,7 @@ test_base_manager.data_base_path = TEST_DB_PATH
 
 
 def add_fake_book_to_db():
+    """Adds fake Book model obj into db"""
     book = Book(
         title=fake.word().capitalize(),
         author=f"{fake.first_name()} {fake.name()}",

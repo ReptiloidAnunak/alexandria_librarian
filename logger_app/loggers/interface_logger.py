@@ -4,6 +4,7 @@ logger = create_alex_lib_logger('INTERFACE')
 
 
 def create_interface_logger():
+    """Creates a logger for textual interface"""
     logger = create_alex_lib_logger('INTERFACE')
     return logger
 

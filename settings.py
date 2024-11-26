@@ -20,6 +20,7 @@ APP_LOGGER_NAME = 'AlexLibLogger'
 MAIN_LOGGER_NAME = 'MAIN_LOG'
 TEST_DB_PATH = os.path.join(ROOT_DIR, DB_DIR_NAME, 'test_db.json')
 
+# LOADERS SETTINGS
 LOADERS_DIR = os.path.abspath(os.path.join(ROOT_DIR, 'loaders_api', 'load_files'))
 LOADERS_LST = os.listdir(LOADERS_DIR)
 

@@ -17,6 +17,9 @@ class EditBookStatusWidget(HorizontalGroup):
         self.btn_ok_status_book = ButtonOkEditBook()
 
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Vertical(
             Label("Change book`s status:"),
         )
@@ -25,6 +28,7 @@ class EditBookStatusWidget(HorizontalGroup):
                        self.btn_ok_status_book)
     @on(ButtonOkEditBook.Pressed)
     def edit_book_status(self, event: Button.Pressed):
+        """Edits Book class object in database if rel button has been pressed"""
         if event.button.id == 'bth_ok_status_book_wid':
             try:
                 book_id = int(self.input_book_id.value)

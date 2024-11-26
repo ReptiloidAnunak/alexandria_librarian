@@ -7,6 +7,7 @@ from settings import APP_LOGGER_NAME
 import colorlog
 
 def create_alex_lib_logger(loger_special_name: str) -> logging.LoggerAdapter:
+    """Creates root logger of the app"""
     logger = logging.getLogger(APP_LOGGER_NAME)
     logger.setLevel(logging.DEBUG)
 

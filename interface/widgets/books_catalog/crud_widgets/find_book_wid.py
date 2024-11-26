@@ -16,6 +16,9 @@ class FindBookWidget(HorizontalGroup):
         self.btn_ok_find_book = ButtonOkFindBook()
 
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Vertical(
             Label("Search book:"),
                     self.input_title,
@@ -25,7 +28,7 @@ class FindBookWidget(HorizontalGroup):
         yield self.btn_ok_find_book
 
     def on_button_pressed(self, event: Button.Pressed):
-        self.app.books_table
+        """Handles button press events of FindBookWidget"""
         if event.button.id == self.btn_ok_find_book.id:
             self.app.logs.info('FIND BOOK OK')
             self.btn_ok_find_book.disabled = False

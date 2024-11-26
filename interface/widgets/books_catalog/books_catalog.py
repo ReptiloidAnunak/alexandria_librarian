@@ -30,7 +30,6 @@ class BooksCatalog(VerticalGroup):
         super().__init__(*args, **kwargs)
         self.columns = tuple(Book.model_fields)
         self.rows = self.base_manager.get_books_rows()
-        # self.table = self.app.books_table
         self.app.books_table.add_columns(*self.columns)
         self.app.books_table.add_rows(self.rows)
         self.add_book_widget = BookAddWidget()
@@ -43,12 +42,16 @@ class BooksCatalog(VerticalGroup):
 
 
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Label('BOOKS CATALOG')
         yield self.app.books_table
         yield Label('DATABASE MANAGEMENT')
         yield ChangeCatalogWidget()
 
     def on_button_pressed(self, event: Button.Pressed):
+        """Handles button press signals of the books` catalog interface"""
         self.app.logs.info(f'BUTTON pressed id :: {event.button.id}')
         if self.WIDGET_RUNNING:
             self.WIDGET_RUNNING.remove()

@@ -11,13 +11,6 @@ test_base_manager = BaseManager()
 test_base_manager.data_base_path = TEST_DB_PATH
 
 
-def test_create_json_db():
-    if os.path.exists(TEST_DB_PATH):
-        os.remove(TEST_DB_PATH)
-    test_base_manager.create_json_db()
-    assert os.path.exists(TEST_DB_PATH)
-
-
 def add_fake_book_to_db():
     book = Book(
         title=fake.word().capitalize(),
@@ -28,6 +21,11 @@ def add_fake_book_to_db():
     test_base_manager.add_book_to_db(book)
     return book
 
+def test_create_json_db():
+    if os.path.exists(TEST_DB_PATH):
+        os.remove(TEST_DB_PATH)
+    test_base_manager.create_json_db()
+    assert os.path.exists(TEST_DB_PATH)
 
 def test_change_book_status():
     book = add_fake_book_to_db()

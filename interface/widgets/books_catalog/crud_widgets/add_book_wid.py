@@ -16,6 +16,9 @@ class BookAddWidget(HorizontalGroup):
         self.input_author = Input(placeholder='Autor', type='text')
         self.input_year = Input(placeholder='Year', type='integer')
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Vertical(
             Label("Add book:"),
                     self.input_title,
@@ -28,6 +31,7 @@ class BookAddWidget(HorizontalGroup):
 
     @on(ButtonOkAddBook.Pressed)
     def add_book(self, event: ButtonOkAddBook.Pressed):
+        """Creates and adds Book class object to database if rel button has been pressed"""
         button = event.button
         self.app.logs.info(f'BUTTON pressed id: {button.id}')
 

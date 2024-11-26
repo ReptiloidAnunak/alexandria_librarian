@@ -18,6 +18,9 @@ class LoadersCheckboxGroup(VerticalGroup):
         self.id: str = 'vertical_checkbox_group'
 
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Static("Select loader")
         for loader in LOADERS_LST:
             if loader.startswith('loader_') or loader.endswith('_loader.py'):
@@ -26,9 +29,9 @@ class LoadersCheckboxGroup(VerticalGroup):
                 yield checkbox
 
     def on_checkbox_changed(self):
+        """Handle changes of loader widget"""
         self.app.logs.info(f'CHECKBOXGROUP: {self.id}')
         self.app.logs.info(f"on_checkbox_changed")
-
 
         for checkbox in self.checkboxes:
             loader = LoaderAPI(file=(checkbox.id + ".py"),

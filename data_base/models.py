@@ -24,6 +24,7 @@ class Book(BaseModel):
         self.id = kwargs.get('id', random.randint(1, 99999))
 
     def to_dict(self):
+        """Converts Book class`s object to dictionary"""
         return dict(id=self.id,
                     title=self.title,
                     author=self.author,
@@ -32,6 +33,7 @@ class Book(BaseModel):
                     isbn=self.isbn)
 
     def to_db_row_tuple(self):
+        """Converts Book class`s object to tuple"""
         return tuple([self.id, self.title, self.author, self.year, self.status, self.isbn])
 
     def __str__(self):

@@ -12,6 +12,7 @@ class BooksDataTable(DataTable):
         self.id = 'data_table_books'
 
     def show_actual_books_db(self):
+        """Updates interface of Textual books table"""
         self.clear()
         books_objs_upt = self.app.db_manager.load_books_objs_from_db()
         for book in books_objs_upt:
@@ -21,6 +22,7 @@ class BooksDataTable(DataTable):
                 self.app.logs.info(f"Error args to show_row: {book.to_db_row_tuple()}")
 
     def show_books_query_result_in_dt(self, books_lst: List[Book]):
+        """Updates books Textual table from books query result"""
         if books_lst:
             self.clear()
             for book in books_lst:

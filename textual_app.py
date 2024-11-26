@@ -1,8 +1,6 @@
+import logging
 import os.path
-from distutils.command.check import check
-from tkinter import Label
-from tkinter.tix import CheckList
-from typing import List
+import subprocess
 import time
 from textual.app import App, ComposeResult
 from textual.widgets import Header, Footer, Button, Static
@@ -29,10 +27,10 @@ class MainMenu(VerticalGroup):
 class AlexLibraryApp(App):
     AUTO_FOCUS = Button
     CSS_PATH = os.path.join('interface', 'static', 'style.tcss')
-    name = 'Alexandria Library'
-    db_manager = BaseManager()
-    books_table = BooksDataTable()
-    active_loaders_paths = []
+    name: str = 'Alexandria Library'
+    db_manager: BaseManager = BaseManager()
+    books_table: BooksDataTable = BooksDataTable()
+    active_loaders_paths: list = []
 
 
     BINDINGS = [("d", "toggle_dark", "Toggle dark mode"),
@@ -40,19 +38,23 @@ class AlexLibraryApp(App):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.logs = create_interface_logger()
-        self.logs_interface = Log()
-        self.main_menu = MainMenu(id="main_menu_container", classes="main_menu_buttons")
-        self.loaders_checkgroup = LoadersCheckboxGroup()
-        self.btn_run_books_load_api = Button('Run loading by API', id='btn_run_load_by_api')
+        self.logs: logging.LoggerAdapter = create_interface_logger()
+        self.logs_interface: Log = Log()
+        self.main_menu: MainMenu = MainMenu(id="main_menu_container", classes="main_menu_buttons")
+        self.loaders_checkgroup: LoadersCheckboxGroup = LoadersCheckboxGroup()
+        self.btn_run_books_load_api: Button = Button('Run loading by API', id='btn_run_load_by_api')
 
     def compose(self) -> ComposeResult:
+        """Yield child widgets for a container.
+        This method should be implemented in a subclass.
+        """
         yield Header(name=self.name)
         yield Footer()
         yield self.main_menu
         self.logs.info("APP INTERFACE COMPOSED")
 
     def on_button_pressed(self, event: Button.Pressed):
+        """Handle button press events of MainMenu"""
         self.logs.info(f'BUTTON pressed :: {event.button.id}')
         if event.button.id == 'btn_books_catalog':
             self.books_table.show_actual_books_db()
@@ -73,9 +75,6 @@ class AlexLibraryApp(App):
             time.sleep(2)
             self.mount(self.main_menu)
 
-            # while True:
-            #     self.app.logs.info(f" LOGGER START LOAD API")
-
         elif event.button.id == 'quit_app':
             self.exit()
 
@@ -86,11 +85,11 @@ class AlexLibraryApp(App):
         )
 
     def action_main_menu(self) -> None:
+        """An action to show main menu"""
         self.mount(self.main_menu)
 
 
-
-
 if __name__ == "__main__":
+    # subprocess.run(['python3',  '-m', 'pytest'])
     app = AlexLibraryApp()
     app.run()

@@ -7,8 +7,8 @@
 
 **Стандартный запуск**
 <br>
-1. Скачайте или кронируйте папку проекта (`git clone https://github.com/ReptiloidAnunak/joker_batman_ai`)<br>
-2. Перейдите в коревую папку проекта (`cd joker_batman_ai`) и запустите команду установки виртуального окружения `python3 -m venv .venv`<br>
+1. Скачайте или кронируйте папку проекта (`git clone https://github.com/ReptiloidAnunak/alexandria_librarian`)<br>
+2. Перейдите в коревую папку проекта (`cd alexandria_librarian`) и запустите команду установки виртуального окружения `python3 -m venv .venv`<br>
 3. Активируйте виртуальное окружение 
 Linux/Mac: `source .venv/bin/activate`<br>
 Windows (Command Prompt): `.venv\Scripts\activate`<br>

@@ -48,15 +48,21 @@ Install the required libraries: `pip install -r requirements.txt`<br>
 Run the code: `python3 textual_app.py` <br><br>
 
 ### Download with Docker 
-
-If you do not have Docker installed, download it by following the instructions on the official website
-Ensure that you are in the root directory where the Dockerfile is located<br>Run the Docker container build command: `docker build -t alexandrian_librarian .`
 <br>Download or clone the project folder (`git clone https://github.com/ReptiloidAnunak/alexandria_librarian`)
+<br>If you do not have Docker installed, download it by following the instructions on the official [website](https://docs.docker.com/engine/install/)<br>Ensure that you are in the root directory where the Dockerfile is located<br>
+Run the Docker container build command: `docker build -t alexandrian_librarian .`
+
+
 Run the Docker container: <br>`docker run -it alexandrian_librarian`
 
 ## Test 
-Run in the root app dir<br>
-`cd your/sys_path/alexandria_librarian/`<br>
+
+Activate the virtual environment:
+    `cd your/sys_path/alexandria_librarian/`<br>
+    Linux/Mac: `source .venv/bin/activate`<br>
+    Windows (Command Prompt): `.venv\Scripts\activate`<br>
+    Windows (PowerShell): `.venv\Scripts\Activate.ps1`<br> <br>
+Install the required libraries: `pip install -r requirements.txt` <br>Run in the root app dir<br>
 `python -m pytest`
 
 ## Bugs

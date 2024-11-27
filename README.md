@@ -4,13 +4,6 @@ v.0.1
 `pydantic, pyfiglet, faker, pyisbn, requests, textual, colorama, colorlog, pytest
 `
 
-![main_menu.png](screenshots/main_menu.png)
-<br>
-![books_catalog.png](screenshots/books_catalog.png)
-<br>
-![add_book.png](screenshots/add_book.png)
-<br>
-![del_book.png](screenshots/del_book.png)
 
 ### **Description**
 
@@ -74,3 +67,13 @@ Run in the root app dir<br>
 
 ! Buttons 'OK' in books catalog menu is disabled if press and after the execution of services.<br>
 To solve it you should exit from app by `Ctrl + C` and reload it:<br>`python3 textual_app.py`
+
+Screenshots
+
+![main_menu.png](screenshots/main_menu.png)
+<br>
+![books_catalog.png](screenshots/books_catalog.png)
+<br>
+![add_book.png](screenshots/add_book.png)
+<br>
+![del_book.png](screenshots/del_book.png)

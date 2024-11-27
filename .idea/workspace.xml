@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ed17ca-5fd6-4770-901b-7f3e5514ca36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/books_catalog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/main_menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base/test_db.json" beforeDir="false" afterPath="$PROJECT_DIR$/data_base/test_db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger_app/alex_lib.log" beforeDir="false" afterPath="$PROJECT_DIR$/logger_app/alex_lib.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Python.main_menu.executor": "Run",
     "Python.models.executor": "Run",
     "Python.openlibrary_books_loader.executor": "Run",
+    "Python.python -m pytest.executor": "Run",
     "Python.service.executor": "Run",
     "Python.settings.executor": "Run",
     "Python.terminal_settings.executor": "Run",
@@ -88,29 +88,12 @@
       <recent name="$PROJECT_DIR$/interface/widgets/catalog_wids" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.openlibrary_books_loader">
-    <configuration name="loader_api_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alexandria_librarian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/loaders_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/loaders_api/loader_api_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install -r requirements.txt" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.python -m pytest">
     <configuration name="openlibrary_books_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alexandria_librarian" />
       <option name="ENV_FILES" value="" />
@@ -129,6 +112,28 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python -m pytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="alexandria_librarian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="pytest" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
@@ -187,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python -m pytest" />
         <item itemvalue="Python.openlibrary_books_loader" />
         <item itemvalue="Python.textual_app" />
         <item itemvalue="Python tests.Python tests in test_books_main.py" />
         <item itemvalue="Python tests.Python tests for test_books_main.test_delete_book" />
-        <item itemvalue="Python.loader_api_model" />
       </list>
     </recent_temporary>
   </component>

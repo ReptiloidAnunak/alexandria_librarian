@@ -11004,3 +11004,23 @@ Book
  has been added to data base
 2024-11-26 20:58:29,271 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 269, 'title': 'Church', 'author': 'Dustin Carol Matthews', 'year': 2018, 'status': 'выдана', 'isbn': None}, {'id': 79737, 'title': 'Agency', 'author': 'David Benjamin Delgado', 'year': 2003, 'status': 'в наличии', 'isbn': None}, {'id': 20500, 'title': 'Under', 'author': 'Amy Patty Munoz', 'year': 2002, 'status': 'в наличии', 'isbn': None}, {'id': 29560, 'title': 'Coach', 'author': 'Julie Nancy Morales', 'year': 2017, 'status': 'в наличии', 'isbn': None}, {'id': 73557, 'title': 'Sense', 'author': 'Todd Emily Lee', 'year': 1976, 'status': 'в наличии', 'isbn': None}, {'id': 13403, 'title': 'Red', 'author': 'Cassandra Donald Fisher', 'year': 1980, 'status': 'в наличии', 'isbn': None}, {'id': 53931, 'title': 'Participant', 'author': 'Michael Nicole Sandoval', 'year': 1989, 'status': 'в наличии', 'isbn': None}]
 2024-11-26 20:58:29,273 - AlexLibLogger - INFO :: Base_Manager >> books_db_list: [{'id': 269, 'title': 'Church', 'author': 'Dustin Carol Matthews', 'year': 2018, 'status': 'выдана', 'isbn': None}, {'id': 79737, 'title': 'Agency', 'author': 'David Benjamin Delgado', 'year': 2003, 'status': 'в наличии', 'isbn': None}, {'id': 20500, 'title': 'Under', 'author': 'Amy Patty Munoz', 'year': 2002, 'status': 'в наличии', 'isbn': None}, {'id': 29560, 'title': 'Coach', 'author': 'Julie Nancy Morales', 'year': 2017, 'status': 'в наличии', 'isbn': None}, {'id': 73557, 'title': 'Sense', 'author': 'Todd Emily Lee', 'year': 1976, 'status': 'в наличии', 'isbn': None}, {'id': 13403, 'title': 'Red', 'author': 'Cassandra Donald Fisher', 'year': 1980, 'status': 'в наличии', 'isbn': None}, {'id': 53931, 'title': 'Participant', 'author': 'Michael Nicole Sandoval', 'year': 1989, 'status': 'в наличии', 'isbn': None}]
+2024-11-26 21:23:01,558 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:01,558 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:01,558 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:01,558 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:01,558 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:01,572 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:01,572 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:01,572 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:01,572 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:01,572 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:05,747 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:05,747 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:05,747 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:05,747 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:05,747 - AlexLibLogger - INFO :: INTERFACE >> APP INTERFACE COMPOSED
+2024-11-26 21:23:05,760 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:05,760 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:05,760 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:05,760 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
+2024-11-26 21:23:05,760 - AlexLibLogger - INFO :: INTERFACE >> MAIN_MENU :: composed
